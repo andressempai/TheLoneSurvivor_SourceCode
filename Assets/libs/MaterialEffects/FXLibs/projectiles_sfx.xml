@@ -1,0 +1,34 @@
+<FXLib>
+	<Effect name="concrete">
+		<RandEffect>
+			<Audio trigger="body_concrete_brick_01"/>
+			<Audio trigger="body_concrete_brick_02"/>
+			<Audio trigger="body_concrete_brick_03"/>
+			<Audio trigger="body_concrete_brick_04"/>
+		</RandEffect>
+	</Effect>
+	<Effect name="metal_heavy">
+		<RandEffect>
+			<Audio trigger="body_metal_heavy_01"/>
+			<Audio trigger="body_metal_heavy_02"/>
+			<Audio trigger="body_metal_heavy_03"/>
+			<Audio trigger="body_metal_heavy_04"/>
+		</RandEffect>
+	</Effect>
+	<Effect name="dirt">
+		<RandEffect>
+			<Audio trigger="body_dirt_01"/>
+			<Audio trigger="body_dirt_02"/>
+			<Audio trigger="body_dirt_03"/>
+			<Audio trigger="body_dirt_04"/>
+		</RandEffect>
+	</Effect>
+	<Effect name="flesh">
+		<RandEffect>
+			<Audio trigger="body_flesh_01"/>
+			<Audio trigger="body_flesh_02"/>
+			<Audio trigger="body_flesh_03"/>
+			<Audio trigger="body_flesh_04"/>
+		</RandEffect>
+	</Effect>
+</FXLib>

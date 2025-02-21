@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="dca858e2-137a-1a97-5a07-cbe561981e43">
+	<Files>
+		<File path="pallet_ddn.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

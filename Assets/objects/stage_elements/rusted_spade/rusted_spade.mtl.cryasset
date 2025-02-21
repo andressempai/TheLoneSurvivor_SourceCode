@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="0ab5baf3-76b9-2d46-cb67-1490f0ab996b" timestamp="1736120004">
+	<Files>
+		<File path="rusted_spade.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/rusted_spade_albedo.dds</Path>
+		<Path usageCount="1">./textures/rusted_spade_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

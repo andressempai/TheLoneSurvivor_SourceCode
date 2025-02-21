@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3850f8d4-4a99-27c9-7c1f-fe37277d512b">
+	<Files>
+		<File path="old_tyre_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

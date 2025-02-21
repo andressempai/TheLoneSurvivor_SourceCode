@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="44e0b3bd-f1a6-44db-daa8-5b6f7117a5c1">
+	<Files>
+		<File path="forest_ground_displ.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

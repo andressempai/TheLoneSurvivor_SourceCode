@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="d2d5140d-3622-0261-c43e-8cb3674fac6f" timestamp="1736106076">
+	<Files>
+		<File path="fuel_canister.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/fuel_canister_albedo.dds</Path>
+		<Path usageCount="1">./textures/fuel_canister_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

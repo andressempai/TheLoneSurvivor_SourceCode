@@ -1,0 +1,8 @@
+<Material MtlFlags="526338" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.34191453,0.34191453,0.34191453" Opacity="1" Shininess="187.42502" CloakAmount="0" vertModifType="0" LayerAct="1">
+	<Textures>
+		<Texture Map="Diffuse" File="./textures/blood_splash_4x4_albedo.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+		</Texture>
+	</Textures>
+	<PublicParams GlobalIlluminationAmount="1"/>
+</Material>

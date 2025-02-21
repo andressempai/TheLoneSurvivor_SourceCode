@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Texture" guid="953febad-5b2f-bc2d-bb19-44a152cdb191">
+ <Files>
+  <File path="dead_tree_moss_mask.dds"/>
+  <File path="dead_tree_moss_mask.dds.1"/>
+  <File path="dead_tree_moss_mask.dds.2"/>
+  <File path="dead_tree_moss_mask.dds.3"/>
+ </Files>
+ <Details>
+  <Detail name="width">128</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">6</Detail>
+ </Details>
+</AssetMetadata>

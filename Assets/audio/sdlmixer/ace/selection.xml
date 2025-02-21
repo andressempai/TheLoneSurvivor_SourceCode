@@ -1,0 +1,28 @@
+<AudioSystemData name="selection" version="5" triggers="4">
+	<ImplData events="3"/>
+	<Triggers>
+		<Trigger name="pistol_select" path="pistol">
+			<Event name="pistol_select.ogg" path="selection/pistol" type="start" volume="0" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="pistol_deselect" path="pistol">
+			<Event name="pistol_deselect.ogg" path="selection/pistol" type="start" volume="0" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="shotgun_select" path="shotgun">
+			<Event name="shotgun_select.ogg" path="selection/shotgun" type="start" volume="0" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="shotgun_deselect" path="shotgun">
+			<Event name="shotgun_deselect.ogg" path="selection/shotgun" type="start" volume="0" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library/>
+		<Folders>
+			<Folder name="pistol"/>
+			<Folder name="shotgun"/>
+		</Folders>
+		<Controls/>
+	</EditorData>
+</AudioSystemData>

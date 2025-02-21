@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="67635231-4dc5-4f51-8bc2-fcfc2634611a" timestamp="1736010193">
+	<Files>
+		<File path="wooden_crate.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/wooden_crate_albedo.dds</Path>
+		<Path usageCount="1">./textures/wooden_crate_ddn.dds</Path>
+	</Dependencies>
+</AssetMetadata>

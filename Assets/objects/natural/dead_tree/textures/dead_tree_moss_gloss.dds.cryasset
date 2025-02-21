@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Texture" guid="5fe19d7b-c418-6748-ef05-d67d9a3f9af8">
+ <Files>
+  <File path="dead_tree_moss_gloss.dds"/>
+  <File path="dead_tree_moss_gloss.dds.1"/>
+  <File path="dead_tree_moss_gloss.dds.2"/>
+  <File path="dead_tree_moss_gloss.dds.3"/>
+  <File path="dead_tree_moss_gloss.dds.4"/>
+ </Files>
+ <Details>
+  <Detail name="width">256</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">7</Detail>
+ </Details>
+</AssetMetadata>

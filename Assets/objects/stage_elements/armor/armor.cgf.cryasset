@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d39655e7-921e-ce81-b836-b57d6c02c9b3" source="armor.fbx">
+	<Files>
+		<File path="armor.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">22123</Detail>
+		<Detail name="vertexCount">11676</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/props/armor/armor.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="c85e6f19-b2ee-834d-e2eb-bce3c128ef09">
+	<Files>
+		<File path="blood_splash_4x4_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">4096</Detail>
+		<Detail name="height">4096</Detail>
+		<Detail name="mipCount">11</Detail>
+	</Details>
+</AssetMetadata>

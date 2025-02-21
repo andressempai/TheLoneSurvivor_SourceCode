@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="45975903-3278-1ba4-0fde-8e76f58e60df" source="pallet.fbx">
+	<Files>
+		<File path="pallet.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">2488</Detail>
+		<Detail name="vertexCount">4587</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/pallet/pallet.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

@@ -1,0 +1,8 @@
+<Material MtlFlags="526336" Shader="Particles" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="9.9450026" CloakAmount="0" vertModifType="0" LayerAct="1">
+	<Textures>
+		<Texture Map="Diffuse" File="./textures/spark_stretched1.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+		</Texture>
+	</Textures>
+	<PublicParams GlobalIlluminationAmount="1"/>
+</Material>

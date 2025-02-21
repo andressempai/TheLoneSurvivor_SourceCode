@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="cbd4086f-fb6f-b9c5-8800-3b5b15c7c5e4" timestamp="1736908206">
+	<Files>
+		<File path="forest_ground.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/forest_ground_albedo.dds</Path>
+		<Path usageCount="1">./textures/forest_ground_ddna.dds</Path>
+		<Path usageCount="1">./textures/forest_ground_displ.dds</Path>
+	</Dependencies>
+</AssetMetadata>

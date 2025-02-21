@@ -1,0 +1,19 @@
+<Material MtlFlags="524544" vertModifType="0">
+	<SubMaterials>
+		<Material Name="medical_kit_bag" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_default" MatTemplate="" Diffuse="0.1559265,0.1559265,0.1559265" Specular="0.0069954102,0.0069954102,0.0069954102" Opacity="1" Shininess="19.890003" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/medical_kit_bag.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/medical_kit_bag_ddn.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="no_draw" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_default" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="9.9450016" vertModifType="0" LayerAct="1">
+			<Textures/>
+		</Material>
+	</SubMaterials>
+	<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

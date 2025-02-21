@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="15e407b3-71cb-0f26-1cf4-62e1e4892f08" timestamp="1736009576">
+ <Files>
+  <File path="wooden_barrel.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">2</Detail>
+  <Detail name="textureCount">3</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./textures/wooden_barrel_albedo.dds</Path>
+  <Path usageCount="1">./textures/wooden_barrel_ddn.dds</Path>
+  <Path usageCount="1">./textures/wooden_barrel_spec.dds</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="c08b21c1-e299-41d7-99f1-37143db77103">
+ <Files>
+  <File path="spike_set_a_spike_tip_diff.dds"/>
+  <File path="spike_set_a_spike_tip_diff.dds.1"/>
+  <File path="spike_set_a_spike_tip_diff.dds.2"/>
+  <File path="spike_set_a_spike_tip_diff.dds.3"/>
+  <File path="spike_set_a_spike_tip_diff.dds.4"/>
+  <File path="spike_set_a_spike_tip_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

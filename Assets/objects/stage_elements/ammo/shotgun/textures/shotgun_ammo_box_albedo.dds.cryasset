@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3338403d-9e8b-1580-c96e-05c2ef43ff36">
+	<Files>
+		<File path="shotgun_ammo_box_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<Material MtlFlags="526336" Shader="Terrain.Layer" GenMask="200000020" StringGenMask="%NORMAL_MAP%TEMP_TERRAIN" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="12.750002" CloakAmount="0" vertModifType="0" LayerAct="1">
+	<Textures>
+		<Texture Map="Diffuse" File="./textures/coast_sand_rocks_albedo.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+		</Texture>
+		<Texture Map="Bumpmap" File="./textures/coast_sand_rocks_ddna.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+		</Texture>
+		<Texture Map="Heightmap" File="./textures/coast_sand_rocks_displ.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+		</Texture>
+	</Textures>
+	<PublicParams BlendFactor="0" BlendFalloff="1" DetailTextureHighPassRange="15" DetailTextureStrength="1" DetailTextureStrengthFade="1" NormalMapBumpiness="1"/>
+</Material>

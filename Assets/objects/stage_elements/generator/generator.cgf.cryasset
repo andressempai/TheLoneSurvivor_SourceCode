@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="917cdad0-125e-df27-f32a-b5289d53549e" source="generator.fbx">
+	<Files>
+		<File path="generator.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">8</Detail>
+		<Detail name="triangleCount">11125</Detail>
+		<Detail name="vertexCount">13287</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/generator/generator.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

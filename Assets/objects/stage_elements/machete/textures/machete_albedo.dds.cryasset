@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a102aaec-b0a7-70bb-9ace-4c5441b21507">
+	<Files>
+		<File path="machete_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

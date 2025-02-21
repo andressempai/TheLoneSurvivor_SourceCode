@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="1c2ce101-830d-a60f-7a2e-74a37bc52889" source="picke_dirty.fbx">
+	<Files>
+		<File path="picke_dirty.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">9634</Detail>
+		<Detail name="vertexCount">6016</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/picke_dirty/picke_dirty.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

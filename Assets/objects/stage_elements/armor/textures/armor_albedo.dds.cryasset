@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a084a9bf-8bb7-997c-6e4e-d77115a50d20" source="armor_albedo.tif">
+ <Files>
+  <File path="armor_albedo.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

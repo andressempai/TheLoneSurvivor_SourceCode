@@ -1,0 +1,13 @@
+<AudioSystemData name="explosion" version="5" triggers="1">
+	<ImplData events="1"/>
+	<Triggers>
+		<Trigger name="small_explosion">
+			<Event name="small_explosion.wav" path="explosions" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="50" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library />
+		<Folders />
+		<Controls />
+	</EditorData>
+</AudioSystemData>

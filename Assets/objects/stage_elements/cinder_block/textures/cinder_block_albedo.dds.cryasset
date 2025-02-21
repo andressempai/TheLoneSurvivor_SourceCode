@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="65cde766-8b0a-d768-1064-d79141b5d664">
+	<Files>
+		<File path="cinder_block_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

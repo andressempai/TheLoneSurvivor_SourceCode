@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="30768a46-aa36-73dd-79ca-4b86e5bb3b52" source="cinder_block.fbx">
+	<Files>
+		<File path="cinder_block.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">700</Detail>
+		<Detail name="vertexCount">672</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/cinder_block/cinder_block.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

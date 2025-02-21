@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="67c877ed-22ed-745f-9489-9b5967c8a0c7">
+	<Files>
+		<File path="outdoor_toilet.cgf"/>
+		<File path="outdoor_toilet_lod1.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">5</Detail>
+		<Detail name="triangleCount">1296</Detail>
+		<Detail name="vertexCount">1637</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./outdoor_toilet.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

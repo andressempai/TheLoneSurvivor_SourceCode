@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="0c9fcfa6-31f0-7de4-11bf-0c6befba5966">
+	<Files>
+		<File path="american_shotgun.cdf"/>
+	</Files>
+	<Details />
+	<Dependencies>
+		<Path>objects/characters/american_shotgun/american_shotgun.chr</Path>
+		<Path>objects/characters/american_shotgun/american_shotgun.skin</Path>
+		<Path>objects/characters/american_shotgun/american_shotgun.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

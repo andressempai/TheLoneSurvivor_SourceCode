@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="d73c2cdb-3594-6359-0b3e-b80f510b4c67" timestamp="1736096704">
+	<Files>
+		<File path="old_tyre.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/old_tyre_albedo.dds</Path>
+		<Path usageCount="1">./textures/old_tyre_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

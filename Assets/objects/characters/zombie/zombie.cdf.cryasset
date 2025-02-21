@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="b967a8ac-8951-ad80-1c3e-905d3b3e0d2c">
+	<Files>
+		<File path="zombie.cdf"/>
+	</Files>
+	<Details/>
+	<Dependencies>
+		<Path>objects/characters/zombie/zombie.chr</Path>
+		<Path>objects/characters/zombie/zombie.mtl</Path>
+		<Path>objects/characters/zombie/zombie.skin</Path>
+		<Path>objects/characters/zombie/zombie.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

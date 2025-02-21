@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b13333e0-2b9a-e89e-d6fd-d5e143ebfa89">
+	<Files>
+		<File path="machete_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

@@ -1,0 +1,38 @@
+<ControllerDef>
+	<Tags filename="animations/mannequin/adb/male_arms_tags.xml"/>
+	<Fragments filename="animations/mannequin/adb/male_arms_fragmentIds.xml"/>
+	<FragmentDefs>
+		<idle scopes="FirstPerson">
+			<Override tags="Pistol" scopes="FirstPerson+Pistol"/>
+			<Override tags="AmericanShotgun" scopes="FirstPerson+AmericanShotgun"/>
+		</idle>
+		<walk scopes="FirstPerson">
+			<Override tags="Pistol" scopes="FirstPerson+Pistol"/>
+			<Override tags="AmericanShotgun" scopes="FirstPerson+AmericanShotgun"/>
+		</walk>
+		<shoot scopes="FirstPersonUpperBody">
+			<Override tags="Pistol" scopes="FirstPersonUpperBody+Pistol"/>
+			<Override tags="AmericanShotgun" scopes="FirstPersonUpperBody+AmericanShotgun"/>
+		</shoot>
+		<lower scopes="FirstPerson">
+			<Override tags="Pistol" scopes="FirstPerson+Pistol"/>
+			<Override tags="AmericanShotgun" scopes="FirstPerson+AmericanShotgun"/>
+		</lower>
+		<raise scopes="FirstPerson">
+			<Override tags="Pistol" scopes="FirstPerson+Pistol"/>
+			<Override tags="AmericanShotgun" scopes="FirstPerson+AmericanShotgun"/>
+		</raise>
+	</FragmentDefs>
+	<ScopeContextDefs>
+		<FirstPersonContext />
+		<FirstPersonUpperBodyContext />
+		<PistolContext />
+		<AmericanShotgunContext />
+	</ScopeContextDefs>
+	<ScopeDefs>
+		<FirstPerson layer="0" numLayers="3" context="FirstPersonContext"/>
+		<FirstPersonUpperBody layer="3" numLayers="2" context="FirstPersonUpperBodyContext"/>
+		<Pistol layer="0" numLayers="3" context="PistolContext"/>
+		<AmericanShotgun layer="0" numLayers="3" context="AmericanShotgunContext"/>
+	</ScopeDefs>
+</ControllerDef>

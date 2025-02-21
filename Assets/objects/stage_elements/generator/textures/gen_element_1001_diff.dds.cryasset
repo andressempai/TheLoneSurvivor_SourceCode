@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="41d0630c-9f32-a5b7-d162-19c6fb2e647a">
+	<Files>
+		<File path="gen_element_1001_diff.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="8a8b46e3-84d9-d412-030e-4dfad36fc043">
+	<Files>
+		<File path="pistol.skin"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">4</Detail>
+		<Detail name="triangleCount">9208</Detail>
+		<Detail name="vertexCount">7237</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+		<Detail name="bonesCount">10</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">%ENGINE%/EngineAssets/Materials/material_default.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

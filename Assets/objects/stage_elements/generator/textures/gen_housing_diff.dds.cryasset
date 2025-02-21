@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="5f136301-7d62-7f0b-3981-147e986229b7">
+	<Files>
+		<File path="gen_housing_diff.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

@@ -1,0 +1,17 @@
+<AssetMetadata version="0" type="Texture" guid="3c4d3150-2693-ae95-268f-9d77a89557d6">
+ <Files>
+  <File path="robinia_leaf_diff.dds"/>
+  <File path="robinia_leaf_diff.dds.1"/>
+  <File path="robinia_leaf_diff.dds.2"/>
+  <File path="robinia_leaf_diff.dds.3"/>
+  <File path="robinia_leaf_diff.dds.4"/>
+  <File path="robinia_leaf_diff.dds.5"/>
+  <File path="robinia_leaf_diff.dds.6"/>
+  <File path="robinia_leaf_diff.dds.7"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="13c8cfa2-50a3-e4c3-114f-7ab2f3b1a69c" timestamp="1737078406">
+	<Files>
+		<File path="blood_splatter.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/blood_splatter_tile_2x2.dds</Path>
+		<Path usageCount="1">./textures/blood_tile_2x2_ddn.dds</Path>
+	</Dependencies>
+</AssetMetadata>

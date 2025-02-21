@@ -1,0 +1,66 @@
+<AudioSystemData name="impact" version="5" triggers="16">
+	<ImplData events="1"/>
+	<Triggers>
+		<Trigger name="body_flesh_01" path="flesh">
+			<Event name="bullet_impact_body_flesh_01.ogg" path="impact/flesh" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_flesh_02" path="flesh">
+			<Event name="bullet_impact_body_flesh_02.ogg" path="impact/flesh" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_flesh_03" path="flesh">
+			<Event name="bullet_impact_body_flesh_03.ogg" path="impact/flesh" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_flesh_04" path="flesh">
+			<Event name="bullet_impact_body_flesh_04.ogg" path="impact/flesh" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="body_concrete_brick_01" path="concrete_brick">
+			<Event name="bullet_impact_concrete_brick_01.ogg" path="impact/concrete_brick" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_concrete_brick_02" path="concrete_brick">
+			<Event name="bullet_impact_concrete_brick_02.ogg" path="impact/concrete_brick" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_concrete_brick_03" path="concrete_brick">
+			<Event name="bullet_impact_concrete_brick_03.ogg" path="impact/concrete_brick" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_concrete_brick_04" path="concrete_brick">
+			<Event name="bullet_impact_concrete_brick_04.ogg" path="impact/concrete_brick" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="body_metal_heavy_01" path="metal_heavy">
+			<Event name="bullet_impact_metal_heavy_01.ogg" path="impact/metal_heavy" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_metal_heavy_02" path="metal_heavy">
+			<Event name="bullet_impact_metal_heavy_01.ogg" path="impact/metal_heavy" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_metal_heavy_03" path="metal_heavy">
+			<Event name="bullet_impact_metal_heavy_01.ogg" path="impact/metal_heavy" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_metal_heavy_04" path="metal_heavy">
+			<Event name="bullet_impact_metal_heavy_01.ogg" path="impact/metal_heavy" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="body_dirt_01" path="dirt">
+			<Event name="bullet_impact_dirt_01.ogg" path="impact/dirt" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_dirt_02" path="dirt">
+			<Event name="bullet_impact_dirt_02.ogg" path="impact/dirt" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_dirt_03" path="dirt">
+			<Event name="bullet_impact_dirt_03.ogg" path="impact/dirt" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		<Trigger name="body_dirt_04" path="dirt">
+			<Event name="bullet_impact_dirt_04.ogg" path="impact/dirt" type="start" volume="0" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library/>
+		<Folders>
+			<Folder name="flesh"/>
+			<Folder name="concrete_brick"/>
+			<Folder name="metal_heavy"/>
+			<Folder name="dirt"/>
+		</Folders>
+		<Controls/>
+	</EditorData>
+</AudioSystemData>

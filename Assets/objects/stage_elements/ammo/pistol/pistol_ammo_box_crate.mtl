@@ -1,0 +1,30 @@
+<Material MtlFlags="524544" vertModifType="0">
+	<SubMaterials>
+		<Material Name="proxy_mat" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.49693313,0.49693313,0.49693313" Specular="0.046665095,0.046665095,0.046665095" Opacity="1" Shininess="255" CloakAmount="0" vertModifType="0" LayerAct="1">
+			<Textures/>
+		</Material>
+		<Material Name="crate_mat" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.49693313,0.49693313,0.49693313" Specular="0.0091340598,0.0091340598,0.0091340598" Opacity="1" Shininess="24.225002" CloakAmount="0" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/pistol_ammo_crate_albedo.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="%ENGINE%/EngineAssets/Textures/white_ddn.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="boxes_mat" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.024157634,0.024157634,0.024157634" Opacity="1" Shininess="25.500002" CloakAmount="0" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/pistol_ammo_box_albedo.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="%engine%/EngineAssets/Textures/white_ddn.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+	</SubMaterials>
+	<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

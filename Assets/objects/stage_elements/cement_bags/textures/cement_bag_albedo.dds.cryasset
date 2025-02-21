@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="e94f5aef-fe7d-ee68-b528-f0d6dd7a767e">
+	<Files>
+		<File path="cement_bag_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

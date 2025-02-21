@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="cbec5c98-d8c6-d4f4-4254-45559e0b4006">
+	<Files>
+		<File path="pistol_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

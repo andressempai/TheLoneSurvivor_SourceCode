@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="a0dcea25-e07c-66c8-0102-339e0b39e2cf" timestamp="1732836373">
+	<Files>
+		<File path="pistol.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/pistol_albedo.dds</Path>
+		<Path usageCount="1">./textures/pistol_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

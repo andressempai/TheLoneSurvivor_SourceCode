@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="dced9e92-e8cf-af9a-b0fd-16d28f939d10" timestamp="1736963294">
+	<Files>
+		<File path="mud.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/brown_mud_albedo.dds</Path>
+		<Path usageCount="1">./textures/brown_mud_ddna.dds</Path>
+		<Path usageCount="1">./textures/brown_mud_displ.dds</Path>
+	</Dependencies>
+</AssetMetadata>

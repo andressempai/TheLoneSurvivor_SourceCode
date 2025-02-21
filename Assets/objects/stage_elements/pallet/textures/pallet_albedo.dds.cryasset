@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="02b48808-9951-1f8f-77d2-ee3ca4906f26">
+	<Files>
+		<File path="pallet_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

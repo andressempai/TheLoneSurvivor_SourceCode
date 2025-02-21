@@ -1,0 +1,9 @@
+<Params>
+	<AnimationList>
+		<Animation name="$AnimEventDatabase" path="objects/characters/american_shotgun/animations/american_shotgun.animevents"/>
+		<Animation name="#filepath" path="objects/characters/american_shotgun/animations"/>
+		<Animation name="*" path="*/*.caf"/>
+		<Animation name="*" path="*/*.bspace"/>
+		<Animation name="*" path="*/*.comb"/>
+	</AnimationList>
+</Params>

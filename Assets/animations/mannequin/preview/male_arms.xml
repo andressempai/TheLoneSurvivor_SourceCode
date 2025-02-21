@@ -1,0 +1,10 @@
+<MannequinPreview>
+	<controllerDef filename="animations/mannequin/adb/male_arms_controller_definitions.xml"/>
+	<contexts>
+		<contextData name="FirstPerson" enabled="1" database="animations/mannequin/adb/male_arms.adb" context="FirstPersonContext" model="objects/characters/male_arms/male_arms.cdf"/>
+		<contextData name="FirstPersonUpperBody" enabled="1" database="animations/mannequin/adb/male_arms.adb" context="FirstPersonUpperBodyContext" model="objects/characters/male_arms/male_arms.cdf"/>
+		<contextData name="Pistol" enabled="1" database="animations/mannequin/adb/pistol.adb" context="PistolContext" model="objects/characters/pistol/pistol.cdf"/>
+		<contextData name="AmericanShotgun" enabled="1" database="animations/mannequin/adb/american_shotgun.adb" context="AmericanShotgunContext" model="objects/characters/american_shotgun/american_shotgun.cdf"/>
+	</contexts>
+	<History StartTime="0" EndTime="0"/>
+</MannequinPreview>

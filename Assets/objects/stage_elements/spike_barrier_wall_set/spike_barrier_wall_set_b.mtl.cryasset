@@ -1,0 +1,43 @@
+<AssetMetadata version="0" type="Material" guid="b6936449-38d8-e562-e59e-ea17aeaa3478">
+	<Files>
+		<File path="spike_barrier_wall_set_b.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">16</Detail>
+		<Detail name="textureCount">32</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_a_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_a_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_corner_a_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_corner_a_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_b_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_b_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_group_b_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_group_b_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_c_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_top_c_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_e_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_e_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_d_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_d_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_c_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_c_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_b_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_b_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_a_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_wall_tall_a_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_gate_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_gate_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_gate_destroyed_lod1_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_barrier_gate_destroyed_lod1_ddna.dds</Path>
+		<Path usageCount="1">./textures/rope_set_shipwreck_b_diff.dds</Path>
+		<Path usageCount="2">./textures/rope_set_shipwreck_b_ddna.dds</Path>
+		<Path usageCount="3">./textures/grime_a_diff.dds</Path>
+		<Path usageCount="3">./textures/grime_mask.dds</Path>
+		<Path usageCount="1">./textures/spike_set_a_spike_tip_diff.dds</Path>
+		<Path usageCount="1">./textures/spike_set_a_spike_tip_ddna.dds</Path>
+		<Path usageCount="3">./textures/wood_bleached_a_ddna.dds</Path>
+		<Path usageCount="1">./textures/wood_bleached_a_diff.dds</Path>
+	</Dependencies>
+</AssetMetadata>

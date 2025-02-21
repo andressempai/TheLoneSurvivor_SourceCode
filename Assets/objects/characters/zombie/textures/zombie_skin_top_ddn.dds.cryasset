@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="22c37b54-b116-be12-c7c3-7a56649e5fa1">
+	<Files>
+		<File path="zombie_skin_top_ddn.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

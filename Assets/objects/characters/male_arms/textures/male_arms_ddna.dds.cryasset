@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a3ba0451-0a91-85c6-7053-5f3a6f1ae851">
+	<Files>
+		<File path="male_arms_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

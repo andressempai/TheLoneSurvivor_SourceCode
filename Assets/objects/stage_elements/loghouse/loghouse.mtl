@@ -1,0 +1,107 @@
+<Material MtlFlags="524544" vertModifType="0">
+	<SubMaterials>
+		<Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+			<Textures/>
+		</Material>
+		<Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/wooden_planks_set_b_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/wooden_planks_set_b_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="wood_cut" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.37626222,0.37626222,0.37626222" Specular="0.022173887,0.022173887,0.022173887" Opacity="1" Shininess="255" AlphaTest="0.30000001" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/wood_poles_caps_darker_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/wood_poles_caps_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="wood_bark" MtlFlags="524416" Shader="Illum" GenMask="4002000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.028991185,0.028991185,0.028991185" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/trunk_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/trunk_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="wood side" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.022173887,0.022173887,0.022173887" Opacity="1" Shininess="255" AlphaTest="0.94999999" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/ba_wooden_shed_protection_side_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/ba_wooden_shed_protection_side_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="moss" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures/>
+		</Material>
+		<Material Name="roof_tiles" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212177,0.0097212177,0.0097212177" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/loghouse_roof_tiles_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/loghouse_roof_tiles_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="2000000000000" StringGenMask="%SPECULAR_MAP" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0.49693301,0.49693301,0.49693301" Opacity="1" Shininess="200" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Specular" File="./textures/glass_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams BumpMapTile="1" TintColor="0.19046287,0.23099814,0.23099814" TintCloudiness="0.025" BackLightScale="0.30000001" BumpScale="0"/>
+		</Material>
+		<Material Name="curtains" MtlFlags="524450" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" AlphaTest="0.69999999" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/fishing_houses_curtains_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/fishing_houses_curtains_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="trims" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.38132605,0.38132605,0.38132605" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/fishing_houses_wood_trims_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/fishing_houses_wood_trims_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="door" MtlFlags="524448" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.71569377,0.71569377,0.71569377" Specular="0.012983033,0.012983033,0.012983033" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/lighthouse_door_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/lighthouse_door_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+	</SubMaterials>
+	<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

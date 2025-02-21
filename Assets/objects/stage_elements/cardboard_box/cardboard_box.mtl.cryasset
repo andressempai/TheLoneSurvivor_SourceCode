@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="58debe13-aa26-019a-36d7-ec22d00966af" timestamp="1736094182">
+	<Files>
+		<File path="cardboard_box.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/cardboard_box_albedo.dds</Path>
+		<Path usageCount="1">./textures/cardboard_box_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

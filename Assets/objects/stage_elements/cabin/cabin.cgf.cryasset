@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="aeba0b53-2187-4ce9-a0db-6e0362019356" source="cabin.fbx">
+	<Files>
+		<File path="cabin.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">6</Detail>
+		<Detail name="triangleCount">54580</Detail>
+		<Detail name="vertexCount">52372</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/cabin/cabin.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

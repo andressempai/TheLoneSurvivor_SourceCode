@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3a89fc92-63e1-0761-419b-678eabc3ae88" timestamp="1736100731">
+	<Files>
+		<File path="metal_trash_can.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/metal_trash_albedo.dds</Path>
+		<Path usageCount="1">./textures/metal_trash_can_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

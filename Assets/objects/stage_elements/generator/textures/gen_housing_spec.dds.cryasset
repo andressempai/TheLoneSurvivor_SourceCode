@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a6d96279-79f8-22ff-dd53-85d93da6e176">
+	<Files>
+		<File path="gen_housing_spec.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

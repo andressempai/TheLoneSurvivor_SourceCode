@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="a1cd7337-5408-4799-f8fe-e06c005a984c">
+	<Files>
+		<File path="zombie.skin"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">4</Detail>
+		<Detail name="triangleCount">11114</Detail>
+		<Detail name="vertexCount">6398</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+		<Detail name="bonesCount">70</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/characters/zombie/zombie.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

@@ -1,0 +1,13 @@
+<UIElements name="HUD">
+	<UIElement name="main_menu" mouseevents="1" cursor="1">
+		<GFx file="main_menu.gfx" layer="0">
+			<Constraints>
+				<Align mode="fullscreen" valign="center" halign="center" width="1920" height="1080" scale="1"/>
+			</Constraints>
+		</GFx>
+		<events>
+			<event name="on_start_game" fscommand="StartGame" desc="Start the Game"/>
+			<event name="on_quit_game" fscommand="QuitGame" desc="Quit Game"/>
+		</events>
+	</UIElement>
+</UIElements>

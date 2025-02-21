@@ -1,0 +1,14 @@
+<UIElements name="HUD">
+	<UIElement name="dead_menu" mouseevents="1" cursor="1">
+		<GFx file="dead_menu.gfx" layer="1">
+			<Constraints>
+				<Align mode="dynamic" valign="center" halign="center"/>
+			</Constraints>
+		</GFx>
+		<events>
+			<event name="OnRetryGame" fscommand="RetryGame" desc="Retry Game"/>
+			<event name="OnReturnMainMenu" fscommand="ReturnMainMenu" desc="Allow User return to Main Menu"/>
+			<event name="OnQuitGame" fscommand="QuitGame" desc="Allow User to Quit Game"/>
+		</events>
+	</UIElement>
+</UIElements>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="e4efaa57-9fda-cf79-0816-a97284c98d15">
+	<Files>
+		<File path="brown_mud_displ.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

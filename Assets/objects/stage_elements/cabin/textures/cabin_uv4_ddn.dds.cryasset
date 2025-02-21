@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="e796501b-bc9c-c0c0-3748-935c35a76116">
+	<Files>
+		<File path="cabin_uv4_ddn.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

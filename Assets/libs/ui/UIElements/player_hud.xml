@@ -1,0 +1,25 @@
+<UIElements name="HUD">
+	<UIElement name="player_hud">
+		<GFx file="player_hud.gfx" layer="0">
+			<Constraints>
+				<Align mode="fullscreen" valign="center" halign="center" width="1920" height="1080" scale="1"/>
+			</Constraints>
+		</GFx>
+		<functions>
+			<function name="update_pistol_info" funcname="update_pistol_info">
+				<param name="size" type="int" desc="Update Pistol Magazine Size"/>
+				<param name="capacity" type="int" desc="Update Pistol Magazine Capacity"/>
+			</function>
+			<function name="update_american_shotgun_info" funcname="update_american_shotgun_info">
+				<param name="size" type="int" desc="Update American Shotgun Magazine Size"/>
+				<param name="capacity" type="int" desc="Update American Shotgun Magazine Capacity"/>
+			</function>
+			<function name="update_armor_hardness" funcname="update_armor_hardness">
+				<param name="hardness" type="int" desc="Update the Armor Hardness"/>
+			</function>
+			<function name="update_health_pack" funcname="update_health_pack">
+				<param name="pack" type="int" desc="Update the Health Pack"/>
+			</function>
+		</functions>
+	</UIElement>
+</UIElements>

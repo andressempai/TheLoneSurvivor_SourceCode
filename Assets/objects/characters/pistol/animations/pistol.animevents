@@ -1,0 +1,6 @@
+<anim_event_list>
+	<animation name="objects/characters/pistol/animations/pistol_fire.caf">
+		<event name="audio_trigger" time="0.005" endTime="0.012" parameter="pistol_fire" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+		<event name="end_shoot" time="0.45" endTime="0.45" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+</anim_event_list>

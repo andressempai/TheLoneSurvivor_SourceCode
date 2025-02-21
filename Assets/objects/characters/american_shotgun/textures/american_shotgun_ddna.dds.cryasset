@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="dff9c3c6-e0d5-f9d0-f344-37b86ecb2b3c">
+	<Files>
+		<File path="american_shotgun_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

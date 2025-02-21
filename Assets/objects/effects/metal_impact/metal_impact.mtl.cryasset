@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="6702be81-7523-dafb-4271-439ef0c6d0f1" timestamp="1735751853">
+	<Files>
+		<File path="metal_impact.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">1</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/spark_stretched1.dds</Path>
+	</Dependencies>
+</AssetMetadata>

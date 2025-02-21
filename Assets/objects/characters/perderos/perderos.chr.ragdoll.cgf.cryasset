@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ce1c9eb1-7a09-81b8-c719-5dcd3dc1c76c">
+	<Files>
+		<File path="perderos.chr.ragdoll.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">1</Detail>
+		<Detail name="triangleCount">0</Detail>
+		<Detail name="vertexCount">0</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/characters/perderos/perderos.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

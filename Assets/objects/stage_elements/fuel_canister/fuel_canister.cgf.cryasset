@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="2e2878dc-b988-20ee-4dc4-4dda44f22e61" source="fuel_canister.fbx">
+	<Files>
+		<File path="fuel_canister.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">1413</Detail>
+		<Detail name="vertexCount">1156</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/fuel_canister/fuel_canister.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

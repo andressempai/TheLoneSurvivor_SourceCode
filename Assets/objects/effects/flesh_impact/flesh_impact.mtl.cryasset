@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="4d81ff8d-3379-4bf0-c3f0-eb493a00f828" timestamp="1737173635">
+	<Files>
+		<File path="flesh_impact.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">1</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/blood_splash_4x4_albedo.dds</Path>
+	</Dependencies>
+</AssetMetadata>

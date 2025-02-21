@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="ddebda67-72d6-798f-47de-26e631e85425" timestamp="1732837635">
+	<Files>
+		<File path="american_shotgun.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/american_shotgun_albedo.dds</Path>
+		<Path usageCount="1">./textures/american_shotgun_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

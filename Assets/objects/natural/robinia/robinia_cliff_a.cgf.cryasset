@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="57093b7e-9cfa-17d7-9b82-00fee3599c64">
+	<Files>
+		<File path="robinia_cliff_a.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">9</Detail>
+		<Detail name="triangleCount">142</Detail>
+		<Detail name="vertexCount">150</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./robinia.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

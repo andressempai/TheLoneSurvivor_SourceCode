@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="816ceb7b-a90c-2154-70b0-18ba38ec0c56">
+	<Files>
+		<File path="zombie_skin_bottom_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

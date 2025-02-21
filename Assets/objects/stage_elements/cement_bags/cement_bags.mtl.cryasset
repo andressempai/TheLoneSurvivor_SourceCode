@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="4813b7ed-49d0-59a8-215c-830759159e16" timestamp="1736264754">
+	<Files>
+		<File path="cement_bags.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/cement_bag_albedo.dds</Path>
+		<Path usageCount="1">./textures/cement_bag_ddn.dds</Path>
+		<Path usageCount="1">./textures/cement_bag_spec.dds</Path>
+	</Dependencies>
+</AssetMetadata>

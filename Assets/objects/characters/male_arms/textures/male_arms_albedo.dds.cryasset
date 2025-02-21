@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="ca72be95-f0ac-f269-31e6-e8745e570fcf">
+	<Files>
+		<File path="male_arms_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

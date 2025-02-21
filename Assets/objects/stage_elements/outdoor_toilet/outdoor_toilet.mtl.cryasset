@@ -1,0 +1,19 @@
+<AssetMetadata version="0" type="Material" guid="e3fb6850-1862-34f8-eaf2-bdf6c55538f5" timestamp="1736006837">
+	<Files>
+		<File path="outdoor_toilet.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">4</Detail>
+		<Detail name="textureCount">8</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/spike_barrier_wall_set/textures/metal_iron_a_diff.dds</Path>
+		<Path usageCount="1">./textures/metal_iron_a_sheet_ddna.dds</Path>
+		<Path usageCount="1">objects/stage_elements/spike_barrier_wall_set/textures/metal_iron_a_spec.dds</Path>
+		<Path usageCount="1">./textures/toilet_diff.dds</Path>
+		<Path usageCount="1">./textures/toilet_ddna.dds</Path>
+		<Path usageCount="1">./textures/wood_beams_b_diff.dds</Path>
+		<Path usageCount="1">./textures/wood_beams_b_ddna.dds</Path>
+		<Path usageCount="1">./textures/moss_diff.dds</Path>
+	</Dependencies>
+</AssetMetadata>

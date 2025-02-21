@@ -1,0 +1,8 @@
+<TagDefinition version="2">
+	<Tags>
+		<Tag name="Pistol"/>
+		<Tag name="AmericanShotgun"/>
+		<Tag name="GrenadeLauncher"/>
+		<Tag name="RocketLauncher"/>
+	</Tags>
+</TagDefinition>

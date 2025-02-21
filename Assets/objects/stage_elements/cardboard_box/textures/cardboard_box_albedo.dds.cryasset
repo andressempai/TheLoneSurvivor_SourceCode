@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="dc9945f3-916a-7785-03df-ab0eb6afe024">
+	<Files>
+		<File path="cardboard_box_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

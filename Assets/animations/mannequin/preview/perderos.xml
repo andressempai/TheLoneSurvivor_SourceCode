@@ -1,0 +1,8 @@
+<MannequinPreview>
+	<controllerDef filename="animations/mannequin/adb/perderos_controller_definitions.xml"/>
+	<contexts>
+		<contextData name="ThirdPerson" enabled="1" database="animations/mannequin/adb/perderos.adb" context="ThirdPersonContext" model="objects/characters/perderos/perderos.cdf"/>
+		<contextData name="ThirdPersonUpperBody" enabled="1" database="animations/mannequin/adb/perderos.adb" context="ThirdPersonUpperBodyContext" model="objects/characters/perderos/perderos.cdf"/>
+	</contexts>
+	<History StartTime="0" EndTime="0"/>
+</MannequinPreview>

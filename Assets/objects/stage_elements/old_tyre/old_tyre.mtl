@@ -1,0 +1,19 @@
+<Material MtlFlags="524544" vertModifType="0">
+	<SubMaterials>
+		<Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Opacity="1" Shininess="9.9450026" CloakAmount="0" vertModifType="0" LayerAct="1">
+			<Textures/>
+		</Material>
+		<Material Name="tyre" MtlFlags="524416" Shader="Illum" GenMask="4000000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.026241222,0.026241222,0.026241222" Opacity="1" Shininess="38.25" CloakAmount="0" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/old_tyre_albedo.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/old_tyre_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+	</SubMaterials>
+	<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

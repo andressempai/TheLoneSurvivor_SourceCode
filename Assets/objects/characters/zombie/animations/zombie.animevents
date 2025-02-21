@@ -1,0 +1,8 @@
+<anim_event_list>
+	<animation name="objects/characters/zombie/animations/zombie_attack_fwd.caf">
+		<event name="melee" time="0.5528571" endTime="0.5528571" parameter="" bone="r_wrist" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/zombie/animations/zombie_hit_reaction_fwd.caf">
+		<event name="audio_trigger" time="0.052380946" endTime="0.052380946" parameter="zombie_injured" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+</anim_event_list>

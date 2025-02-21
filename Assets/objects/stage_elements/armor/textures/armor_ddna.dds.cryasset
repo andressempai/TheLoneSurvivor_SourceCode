@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="fa4bea2d-2741-42ef-3c4a-d18770e47b2c" source="armor_ddna.tif">
+ <Files>
+  <File path="armor_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">2048</Detail>
+  <Detail name="height">2048</Detail>
+  <Detail name="mipCount">10</Detail>
+ </Details>
+</AssetMetadata>

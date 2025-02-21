@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="b119648c-657d-d8aa-1fb1-99c227f369fb">
+	<Files>
+		<File path="perderos.cdf"/>
+	</Files>
+	<Details/>
+	<Dependencies>
+		<Path>objects/characters/perderos/perderos.chr</Path>
+		<Path>objects/characters/perderos/perderos.mtl</Path>
+		<Path>objects/characters/perderos/perderos.skin</Path>
+		<Path>objects/characters/perderos/perderos.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

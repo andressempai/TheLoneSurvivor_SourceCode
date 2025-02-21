@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="47e93d0b-d84e-c793-b00e-1b10f4e88ac6">
+	<Files>
+		<File path="coast_sand_rocks_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

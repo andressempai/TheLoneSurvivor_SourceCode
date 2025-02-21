@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="b0885f23-7d85-8208-a7b8-c7c39b9035b7">
+	<Files>
+		<File path="shotgun_ammo_crate_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

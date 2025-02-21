@@ -1,0 +1,7 @@
+<MannequinPreview>
+	<controllerDef filename="animations/mannequin/adb/zombie_controller_definitions.xml"/>
+	<contexts>
+		<contextData name="ThirdPerson" enabled="1" database="animations/mannequin/adb/zombie.adb" context="ThirdPersonContext" model="objects/characters/zombie/zombie.cdf"/>
+	</contexts>
+	<History StartTime="0" EndTime="0"/>
+</MannequinPreview>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="9d0b6a4b-d542-1bc3-e524-c5299c13fb24">
+	<Files>
+		<File path="cement_impact_smoke_8x4_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">4096</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

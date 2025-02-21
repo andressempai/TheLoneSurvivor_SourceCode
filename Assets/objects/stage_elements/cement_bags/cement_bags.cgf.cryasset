@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="be56b7af-c550-d7a8-9cfe-a30d6a31167e" source="cement_bags.fbx">
+	<Files>
+		<File path="cement_bags.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">13120</Detail>
+		<Detail name="vertexCount">9069</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/cement_bags/cement_bags.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

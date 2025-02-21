@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="15e9f795-1da2-df5a-4efd-3258762e3fbc">
+	<Files>
+		<File path="wooden_crate_ddn.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

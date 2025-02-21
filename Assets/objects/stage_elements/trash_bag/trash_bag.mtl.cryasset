@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Material" guid="2075e1d8-1be0-c90e-124a-91a11b0e375e" timestamp="1736102266">
+	<Files>
+		<File path="trash_bag.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">1</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">%engine%/EngineAssets/Textures/black.dds</Path>
+	</Dependencies>
+</AssetMetadata>

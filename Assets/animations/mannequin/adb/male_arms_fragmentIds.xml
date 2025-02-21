@@ -1,0 +1,9 @@
+<TagDefinition version="2">
+	<Tags>
+		<Tag name="idle"/>
+		<Tag name="walk"/>
+		<Tag name="shoot"/>
+		<Tag name="lower"/>
+		<Tag name="raise"/>
+	</Tags>
+</TagDefinition>

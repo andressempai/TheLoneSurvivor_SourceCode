@@ -1,0 +1,22 @@
+<anim_event_list>
+	<animation name="objects/characters/male_arms/animations/pistol_walk.caf">
+		<event name="footstep" time="0.26576921" endTime="0.26576921" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+		<event name="footstep" time="0.75141025" endTime="0.75141025" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/male_arms/animations/shotgun_walk.caf">
+		<event name="footstep" time="0.27589741" endTime="0.27589741" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+		<event name="footstep" time="0.78192306" endTime="0.78192306" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/male_arms/animations/pistol_lower.caf">
+		<event name="audio_trigger" time="0.21499999" endTime="0.21499999" parameter="pistol_deselect" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/male_arms/animations/pistol_raise.caf">
+		<event name="audio_trigger" time="0.17434782" endTime="0.17434782" parameter="pistol_select" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/male_arms/animations/shotgun_lower.caf">
+		<event name="audio_trigger" time="0.24952377" endTime="0.30499998" parameter="shotgun_deselect" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/male_arms/animations/shotgun_raise.caf">
+		<event name="audio_trigger" time="0.36706895" endTime="0.36706895" parameter="shotgun_select" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+</anim_event_list>

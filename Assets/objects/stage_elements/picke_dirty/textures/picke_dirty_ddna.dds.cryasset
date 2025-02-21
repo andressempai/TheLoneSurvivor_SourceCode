@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f1c45589-4da0-3219-62ec-cf29b4286ead">
+ <Files>
+  <File path="picke_dirty_ddna.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

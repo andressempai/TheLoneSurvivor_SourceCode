@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="30ce573c-d8ed-4831-8b3b-f4d4269ee47e">
+	<Files>
+		<File path="pistol.cdf"/>
+	</Files>
+	<Details />
+	<Dependencies>
+		<Path>objects/characters/pistol/pistol.chr</Path>
+		<Path>objects/characters/pistol/pistol.mtl</Path>
+		<Path>objects/characters/pistol/pistol.skin</Path>
+		<Path>objects/characters/pistol/pistol.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

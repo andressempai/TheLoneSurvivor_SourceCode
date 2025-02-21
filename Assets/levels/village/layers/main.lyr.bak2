@@ -1,0 +1,546 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1737734920">
+  <LayerObjects>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="e5743385-8a41-91cb-eadc-3b5504bd4495" Name="wooden_barrel-3" Pos="266.68396,228.04367,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_barrel/wooden_barrel.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="NavigationArea" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="0bf0429b-2d77-083a-759c-07eca46502d1" Name="NavigationArea-1" Pos="225.50249,215.50189,29.243412" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="9846784" UseCustomLevelLayerColor="0" MinSpec="0" Height="5" Exclusion="0" RemoveInaccessibleTriangles="1" DisplayFilled="1" HasEntity="0">
+    <AffectedAgentTypes MediumSizedCharacters="1"/>
+    <Properties />
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-7.1387653,86.230064,3.8146973e-06"/>
+     <Point Pos="61.550095,86.925163,0"/>
+     <Point Pos="68.100479,0.17914701,3.8146973e-06"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="55f98469-cffd-b94f-5a16-b1722a242943" Name="cardboard_box-10" Pos="269.0806,250.37003,31.999756" Rotate="0.99832135,0,0,0.057914577" Scale="1.35,1.35,1.35" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="200" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="6c653a74-6f16-1262-b587-abdc6a1c66ab" Name="cardboard_box-9" Pos="269.09662,250.99277,31.999754" Rotate="0.99907267,0,0,-0.043015249" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="200" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="19efb71a-d895-f9bb-8548-90f602189483" Name="enemy_spawner_04" Pos="229.18025,239.30923,31.999266" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="7f824229-ae8a-4799-a093-55f624cdc2f9" TypeName="enemyspawnercomponent" GUID="da419cd8-f341-0623-248a-8b719669a1df" Name="" UserAdded="true">
+      <properties spawninterval="13" initialdelay="15">
+       <enemytospawn>
+        <element element="zombie"/>
+       </enemytospawn>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="5af27674-2432-a758-5608-099a805ef498" Name="enemy_spawner_03" Pos="284.32892,227.08952,31.999266" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="7f824229-ae8a-4799-a093-55f624cdc2f9" TypeName="enemyspawnercomponent" GUID="007cd9bf-ba96-9daa-6ff4-87a9ad9e17a7" Name="" UserAdded="true">
+      <properties spawninterval="21" initialdelay="7">
+       <enemytospawn>
+        <element element="zombie"/>
+        <element element="perderos"/>
+        <element element="perderos"/>
+       </enemytospawn>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="957fffab-03a3-68a3-d83c-17c9baf14eee" Name="rusted_spade-1" Pos="266.17142,231.23994,32.496155" Rotate="0.70581406,0.042733394,-0.042733386,-0.70581388" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/rusted_spade/rusted_spade.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="c4a6431b-5ec9-5e77-bdda-b2e6d06d7907" Name="enemy_spawner_01" Pos="229.70711,289.83304,31.999268" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="7f824229-ae8a-4799-a093-55f624cdc2f9" TypeName="enemyspawnercomponent" GUID="9c2aa70f-c5c3-2464-2ec7-19aafe1911e3" Name="" UserAdded="true">
+      <properties spawninterval="11" initialdelay="5">
+       <enemytospawn>
+        <element element="zombie"/>
+        <element element="zombie"/>
+        <element element="zombie"/>
+        <element element="perderos"/>
+       </enemytospawn>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="645099e4-8c24-bef9-3adb-6bee14a437dd" Name="wooden_fence_120_200_a-1" Pos="242.8038,266.4216,31.91881" Rotate="0.9934774,-0.0098354388,0.0011245748,-0.11359327" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_200_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EntityWithComponent" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="f601f570-a771-bf20-1f4a-5538fdfa1345" Name="Entity-1" Pos="254.68466,260.41293,36.773941" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="63297e89-ea00-4f56-ac23-2e93c68fe71d" TypeName="Cry::DefaultComponents::CEnvironmentProbeComponent" GUID="d808ffaa-4ae3-973f-b2e1-46548de476d7" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Active="true">
+       <BoxSize x="90" y="90" z="25"/>
+       <Options IgnoreVisAreas="false" SortPriority="0" AttenuationFalloffMax="1" AffectVolumetricFog="true" VolumetricFogOnly="false" OnlyAffectThisArea="true" BoxProjection="false"/>
+       <Color DiffMult="1.25" SpecMult="1">
+        <Color r="1" g="0.92156863" b="0.73333335" a="1"/>
+       </Color>
+       <Generation GeneratedCubemapPath="textures\cubemaps\village\Entity-1_cm.tif" AutoLoad="true" Resolution="High"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="94464c37-f63a-ff04-deb4-59074980e5e2" Name="fuel_canister-1" Pos="272.51239,241.47365,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/fuel_canister/fuel_canister.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="8ca79366-5e38-c173-a04d-85d2544acc54" Name="enemy_spawner_02" Pos="273.40707,276.24139,31.999266" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="7f824229-ae8a-4799-a093-55f624cdc2f9" TypeName="enemyspawnercomponent" GUID="9d181d8e-ac2f-b3bd-b6ca-e1813f5a2b8b" Name="" UserAdded="true">
+      <properties spawninterval="9" initialdelay="1">
+       <enemytospawn>
+        <element element="zombie"/>
+        <element element="perderos"/>
+       </enemytospawn>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="b5eb9a10-af21-1e94-0abc-5e5b5cac0f46" Name="worker_barrack_b_support-2" Pos="252.94151,230.85266,32.505997" Rotate="0.74967772,0,-0.66180205,0" Scale="0.25,0.5,0.25" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/worker_barracks/worker_barrack_b_support.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="58c769e6-6e41-b47b-d7de-ab6d373d5754" Name="cabin-1" Pos="270.65732,266.3808,31.999756" Rotate="0.6178574,0,0,0.78628987" Scale="1.65,1.6500001,1.6500001" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cabin/cabin.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="50" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="979baff7-988a-a2e5-01bb-5eaebcddb87e" Name="player_start_01" Pos="259,252,31.900145" Rotate="0.99999988,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="ec44dd79-73aa-4590-bb5c-4d1c66e83dff" TypeName="playerstartcomponent" GUID="097a49f3-de2b-911f-c28e-a6ac22559072" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties />
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="7fa4f25c-5a30-a76f-04d4-3261296dbc9c" Name="pause_entity" Pos="260,253,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="524325b5-3a67-4892-8f75-af50ff9153a6" TypeName="pausemenucomponent" GUID="67d1bc87-519d-7c9e-930d-93cf8c5c974a" Name="" UserAdded="true">
+      <properties state="hidden"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="e4f5ddea-6f60-5bc9-087a-aa82b04a88da" Name="shotgun_ammunition_spawner-01" Pos="270.01462,250.5939,33" Rotate="0.99999988,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="f1461415-dbec-4d3e-ac99-db217cbad237" TypeName="collectablespawnercomponent" GUID="10ba448e-37c1-20e6-ce92-aeb2ee599af5" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties collectabletype="americanshotgunammunition" timetospawn="30"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="6b204ea9-70bc-2c13-56a3-5201a85e14fe" Name="loghouse_grey-1" Pos="273.7041,245.99881,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/loghouse/loghouse_grey.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180040000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="7fa92809-5c25-332e-8fe8-1520373fbd23" Name="wooden_barrel-7" Pos="252.65031,231.35796,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_barrel/wooden_barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="d23a77b1-f8a8-30f0-71f4-a7e9dc23e2c7" Name="pistol_ammunition_spawner-1" Pos="270.22565,251.68802,33" Rotate="0.99999988,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="f1461415-dbec-4d3e-ac99-db217cbad237" TypeName="collectablespawnercomponent" GUID="7bb3daed-b8cf-c5e4-ba7a-ed183394829f" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties collectabletype="pistolammunition" timetospawn="30"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="acd5a5a9-5bd6-7750-74c9-3c88adc90ee7" Name="cardboard_box-1" Pos="255.09587,234.0451,32.99472" Rotate="0.94707811,0,0,-0.32099971" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="25" ViewDistRatio="125" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="b1b880bf-41c6-2ddc-9b99-659f591e4dae" Name="armor_spawner-1" Pos="240.55197,264.99387,32.89143" Rotate="-8.7422769e-08,0,-0,-0.99999982" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="f1461415-dbec-4d3e-ac99-db217cbad237" TypeName="collectablespawnercomponent" GUID="10ba448e-37c1-20e6-ce92-aeb2ee599af5" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties collectabletype="armor" timetospawn="30"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="bb43d0b1-6464-d4c7-a929-5f48baf29b6e" Name="medkit_spawner-1" Pos="240.14293,254.80717,33" Rotate="0.99999988,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="f1461415-dbec-4d3e-ac99-db217cbad237" TypeName="collectablespawnercomponent" GUID="10ba448e-37c1-20e6-ce92-aeb2ee599af5" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties collectabletype="medKit" timetospawn="30"/>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="cb881b38-7915-cff8-4903-864e1d2b6f8c" Name="machete-1" Pos="255.68639,233.75394,32.979855" Rotate="0.70710671,0.70710665,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/machete/machete.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="210bf263-48e0-683d-2098-5e834245934b" Name="wooden_crate-2" Pos="240.09628,254.41479,31.999752" Rotate="0.99999988,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_crate/wooden_crate.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="9571f565-d2c8-fed7-1e30-7ab2bdcf2e49" Name="wooden_fence_120_400_a-3" Pos="243.89676,264.00568,31.902004" Rotate="0.69893569,0.028082497,0.028689925,0.71405387" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_400_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="ca81eb13-418f-a46d-6c2b-885bce13ad90" Name="worker_barrack_b-1" Pos="271.79587,254.02826,31.999756" Rotate="-8.7422769e-08,0,-0,-0.99999982" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/worker_barracks/worker_barrack_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="4df8a6d7-e304-2ab1-fa86-76ee04712744" Name="old_tyre-2" Pos="254.53833,233.43384,32.285023" Rotate="0.98644948,0.16405998,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/old_tyre/old_tyre.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="50" ViewDistRatio="125" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="e794c6bc-c3f9-a704-d1f3-5f909eded847" Name="outdoor_toilet-1" Pos="278.14725,240.92285,31.999756" Rotate="-8.7422769e-08,0,-0,-0.99999982" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/outdoor_toilet/outdoor_toilet.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="21f17a94-a902-ff33-d1f8-5a8adc906696" Name="cardboard_box-5" Pos="254.67436,233.77786,32.329723" Rotate="0.63130742,0,0,0.77552903" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="4cbc16ef-d38f-d84a-6c49-577eb30be85d" Name="outdoor_toilet_door-1" Pos="278.64963,240.30313,32.145378" Rotate="-8.7422769e-08,0,-0,-0.99999982" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/outdoor_toilet/outdoor_toilet_door.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="95640e06-dd6a-63b1-6ea4-69a5887d09da" Name="worker_barrack_b_support-1" Pos="266.27789,228.40234,33.255627" Rotate="0.77374977,-0.023597714,0.63247967,0.0268804" Scale="0.25,0.25,0.25" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/worker_barracks/worker_barrack_b_support.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="07cef72e-af33-14be-1b4d-144510c0a9d4" Name="storage_hall_destroyed-1" Pos="261.13718,227.68388,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/storage_hall/storage_hall_destroyed.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="bee72f8c-fe1e-1518-29a9-8e9da3b2be57" Name="cardboard_box-7" Pos="266.42639,229.47157,32.325981" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="f8a73521-98f7-8396-950f-645e96ca1fcd" Name="loghouse_pile-1" Pos="275.61652,242.63948,31.999756" Rotate="-8.7422769e-08,0,-0,-0.99999982" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="objects/stage_elements/loghouse/loghouse" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/loghouse/loghouse_pile.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180040000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="1168a42f-17b1-7a37-5bad-c2b108879f56" Name="observatory_tower_a-1" Pos="274.24496,232.40828,31.999754" Rotate="0.99961489,0,0,0.02774569" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/observatory_tower_a/observatory_tower_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="789b351e-f582-9775-7ed3-d4a5c5075d72" Name="wooden_crate-4" Pos="269.93652,251.62505,31.999756" Rotate="0.99500746,0,0,-0.099796601" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_crate/wooden_crate.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="08d3605a-8711-c768-704f-e9755319b4e8" Name="cardboard_box-16" Pos="266.42639,229.38405,32.643875" Rotate="0.99930632,-0.037235782,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="6a58e77b-5201-91dd-438a-20612a459e5d" Name="wooden_barrel-4" Pos="266.73242,228.7959,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_barrel/wooden_barrel.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="a0431578-631b-00ae-4374-b2e1554fea31" Name="wooden_fence_120_400_a-1" Pos="240.10867,253.54628,31.999756" Rotate="0.99951059,0,0,0.031276934" Scale="1.1,1.1,1.1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_400_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="256d11c2-409d-a3bd-b95c-b252cc384608" Name="wooden_barrel-5" Pos="267.26517,228.42413,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_barrel/wooden_barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="e3137661-9271-fa99-d7d9-b71f1a6d3719" Name="trash_bag-5" Pos="279.15775,241.07957,31.999756" Rotate="0.8469764,-0.16594459,-0.097108699,0.49563998" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/trash_bag/trash_bag.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="79f23a83-7499-9552-e611-5cbc8622ec13" Name="cardboard_box-13" Pos="266.60516,228.21797,33.061039" Rotate="0.70749271,0,0.70672059,-0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="a0ce2077-b7a0-40e1-64c2-7ce996def513" Name="wooden_fence_120_400_a-5" Pos="237.01559,264.17798,31.901062" Rotate="0.77805638,0,0,0.62819219" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_400_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="1c52b35a-639b-e82f-813a-6556130d2bed" Name="worker_barrack_a-1" Pos="254.57231,227.81981,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/worker_barracks/worker_barrack_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="6ddd1f3b-fd64-d002-71e0-301aa2558dab" Name="cardboard_box-17" Pos="279.45819,242.40431,31.999754" Rotate="0.90300214,0,0,0.42963293" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="f6aa1e5a-ef68-26e9-6ea8-3c5306303b11" Name="worker_barrack_a-2" Pos="254.57231,231.5424,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/worker_barracks/worker_barrack_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="f20080d1-7485-3c50-e0e3-a86c9d69a08a" Name="trash_bag-6" Pos="279.20737,241.53951,31.999756" Rotate="0.44312665,-0.16184038,-0.1003921,0.87599343" Scale="0.84745765,0.84745765,0.84745765" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/trash_bag/trash_bag.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="a042dcd2-a86a-45d0-b72e-0bc3cda16ad7" Name="wooden_barrel-8" Pos="252.65031,230.57628,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_barrel/wooden_barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="5be9c8b3-ba7a-ef69-6237-4f9e137ba740" Name="wooden_crate-5" Pos="269.79102,250.47256,31.999756" Rotate="0.99888974,0,0,0.047103249" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_crate/wooden_crate.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000200">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="06ebb816-fb52-547f-1f22-da7c1879f9b6" Name="wooden_barrel-9" Pos="252.67241,231.06895,32.913471" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_barrel/wooden_barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="c5d1b521-a00c-a31e-4c37-665ecddbf3eb" Name="cardboard_box-8" Pos="279.2605,241.91678,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="144d976f-968e-c029-d4aa-4949bd1e2e22" Name="wooden_crate-3" Pos="255.37651,233.61922,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_crate/wooden_crate.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="f798942b-a8cf-4ca7-964b-f3b65c635e1e" Name="cardboard_box-2" Pos="255.38414,233.67206,32.976109" Rotate="0.6437915,0,0,-0.76519811" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="25" ViewDistRatio="125" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="4106cf74-406f-82cc-94e1-d85db07ff560" Name="old_tyre-1" Pos="254.62785,233.23869,32.301849" Rotate="0.99467361,0.10306975,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/old_tyre/old_tyre.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="125" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="e3cadb8c-f124-231e-e41e-5cab4eacfc82" Name="metal_trash_can-1" Pos="279.2298,240.64676,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/metal_trash_can/metal_trash_can.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="678df560-4411-147d-9e46-eef69f9c8f6f" Name="cardboard_box-3" Pos="254.72971,233.75464,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="0" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180000000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="f726c8d0-42e2-d818-3180-83de0aae5e1d" Name="cardboard_box-4" Pos="254.23833,233.83673,31.999756" Rotate="0.93135029,0,0,-0.36412254" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="4a590b39-5b9f-5481-b600-c1821f12637d" Name="cardboard_box-6" Pos="266.39713,229.49443,31.999756" Rotate="0.95468509,0,0,0.29761386" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="c6fd15ba-350e-b5d7-5ca0-ad246660c354" Name="picke_dirty-1" Pos="266.19577,231.55646,32.320919" Rotate="0.69811672,0.046396215,-0.047378909,-0.7129032" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/picke_dirty/picke_dirty.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="d0054dbf-c26f-992e-70a3-1094b588d799" Name="wooden_fence_120_400_a-2" Pos="236.37642,259.89761,31.955475" Rotate="-0.6675728,0,0,0.74453247" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_400_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="9ebf17d9-c361-46a4-5f39-ec17346d628b" Name="wooden_fence_120_400_a-4" Pos="239.56093,266.66418,31.868773" Rotate="0.99700767,0.077278942,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_400_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="7a43535a-253e-b225-b89b-5a847bec525f" Name="cardboard_box-11" Pos="269.04434,250.32872,32.442822" Rotate="0.99021327,0,0,-0.1395555" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="200" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="2aff9c4e-3e43-dbe2-74c7-fe77eba3aa40" Name="trash_bag-7" Pos="268.57333,250.29617,31.999756" Rotate="0.83816034,0.09105695,0.05808045,0.5346185" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/trash_bag/trash_bag.cgf" IgnoreVisareas="0" CastShadowMaps="0" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="200" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180020000000">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="a73d736c-d7fb-d303-46b2-be12d8ad612b" Name="cardboard_box-12" Pos="267.06967,228.65305,32.925117" Rotate="0.93888706,0,0,0.34422302" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="748582e5-f842-ea7b-f6f7-89b36e6ffbc7" Name="cardboard_box-14" Pos="266.91516,228.56865,33.22776" Rotate="0.94265431,0,0,-0.3337642" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="0e2caf5e-de3e-716c-2e31-ffa28ba71e7c" Name="cardboard_box-15" Pos="267.38651,228.39209,32.925117" Rotate="0.45236418,0,0,0.89183027" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="175" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="a59f669a-5e9b-160f-6d72-afad782e7b30" Name="pallet-1" Pos="266.64224,234.6021,31.999756" Rotate="0.70710671,0,0,0.70710653" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="a04b3b3a-7464-472f-802c-1918ae313082" TypeName="dynamicmeshcomponent" GUID="77131278-d9b5-d5bd-bb07-b1fae3fdc12c" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties dynamictype="static" cancastshadow="true">
+       <meshparams geometry="objects/stage_elements/pallet/pallet.cgf" material="objects/stage_elements/pallet/pallet.mtl" viewdistanceratio="150" lodratio="100"/>
+       <simulationparams enablephysics="false" usecustomgravity="false" maxtimestep="0.02" minenergy="0.039999999" damping="0.1" mass="1" friction="0.60000002">
+        <gravity x="0" y="0" z="0"/>
+       </simulationparams>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="a0ed5a31-167f-816d-6179-930d0c6d0824" Name="cement_bags-1" Pos="266.58472,234.61317,31.999756" Rotate="0.70710671,0,0,0.70710653" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="a04b3b3a-7464-472f-802c-1918ae313082" TypeName="dynamicmeshcomponent" GUID="bbef441a-017c-be97-4ad0-57a34e6a57cf" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties dynamictype="static" cancastshadow="true">
+       <meshparams geometry="objects/stage_elements/cement_bags/cement_bags.cgf" material="objects/stage_elements/cement_bags/cement_bags.mtl" viewdistanceratio="150" lodratio="100"/>
+       <simulationparams enablephysics="false" usecustomgravity="false" maxtimestep="0.02" minenergy="0.039999999" damping="0.1" mass="1" friction="0.60000002">
+        <gravity x="0" y="0" z="0"/>
+       </simulationparams>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="09fa6832-1dc4-c6a9-e5ac-e6e1af6ef2d8" Name="wooden_fence_120_200_a-2" Pos="243.82593,260.84097,31.999758" Rotate="0.66267461,0,0,-0.74890471" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_200_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="fa3896c7-0289-a2fa-4a28-546d1da5b2d1" Name="wooden_fence_120_400_a-6" Pos="242.97751,255.86743,31.999756" Rotate="0.78113401,0,0,0.6243583" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_400_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="528f3a9c-4773-fd40-8e49-6b652ccd6262" Name="wooden_fence_120_400_a-7" Pos="236.92197,255.53058,31.965431" Rotate="0.54736871,0,0,0.83688593" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_fence/wooden_fence_120_400_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="18f174dd-98ac-ae84-8810-e5d396ab6fbc" Name="generator-1" Pos="273.40726,241.02829,32.000099" Rotate="-8.7422769e-08,0,-0,-0.99999982" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="a04b3b3a-7464-472f-802c-1918ae313082" TypeName="dynamicmeshcomponent" GUID="8f900efa-4834-9688-4d85-a3d08277df33" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties dynamictype="static" cancastshadow="false">
+       <meshparams geometry="objects/stage_elements/generator/generator.cgf" material="objects/stage_elements/generator/generator.mtl" viewdistanceratio="150" lodratio="50"/>
+       <simulationparams enablephysics="false" usecustomgravity="false" maxtimestep="0.02" minenergy="0.039999999" damping="0.1" mass="1" friction="0.60000002">
+        <gravity x="0" y="0" z="0"/>
+       </simulationparams>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="467d113e-e0dc-7389-32e0-6861ccd38002" Name="wooden_barrel-10" Pos="266.37036,227.42992,31.999754" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/wooden_barrel/wooden_barrel.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="Prefab" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="0cf9b388-da8d-4911-4544-9642811abc69" Name="cinder_blocks-1" Pos="266.39749,230.4747,32.276108" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="56575" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" PrefabGUID="c7c05b3e-8cef-ff2b-9bc0-c58d13dde1c7" PrefabName="objects/prefab/cinder_blocks.cinder_blocks"/>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="3cbe44a0-4468-3f79-a06d-764b71ba2476" Name="cardboard_box-18" Pos="279.30884,242.20143,32.325073" Rotate="0.99989223,0,0,0.014515433" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="a78b71b4-1f3e-dddf-73ec-a0b9697709ac" Name="Entity-2" Pos="253.87944,233.5071,31.974365" Rotate="0.9667182,0.08948949,-0.0012627608,0.23967846" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="41d2c0df-e5e3-b564-fa22-c272dbc38cff" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="0.85000002"/>
+        <element element="0.85000002"/>
+        <element element="0.85000002"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="objects/stage_elements/trash_bag/trash_bag.cgf" Material="objects/stage_elements/trash_bag/trash_bag">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="6cb9035f-0c91-2ba9-e70f-3edf6f4ff607" Name="Entity-4" Pos="254.03331,233.35292,31.974365" Rotate="0.99561554,0.081519268,0.039802369,-0.022800887" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="6ddd0033-6aaa-4b71-b8ea-108258205e29" TypeName="Cry::DefaultComponents::CStaticMeshComponent" GUID="41d2c0df-e5e3-b564-fa22-c272dbc38cff" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties Type="RenderAndCollider" FilePath="objects/stage_elements/trash_bag/trash_bag.cgf" Material="objects/stage_elements/trash_bag/trash_bag">
+       <IEditorEntityComponent />
+       <Render ShadowSpec="Low" IgnoreVisArea="false" IgnoreTerrainLayerBlend="false" IgnoreDecalBlend="false" ViewDistRatio="100" LODDistance="100" GIMode="None"/>
+       <Physics WeightType="EWeightType::Mass" Density="9.9999997e-05" Mass="10"/>
+      </properties>
+     </Component>
+    </Components>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="2151dd22-98f6-d085-cd6d-e380fc09c1b1" Id="2846f467-c5ac-deba-0cd4-94cf34ef32a7" Name="cardboard_box-19" Pos="254.20857,233.78241,32.329723" Rotate="-0.035855614,0,0,0.99935359" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/stage_elements/cardboard_box/cardboard_box.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="0" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000008">
+    <CollisionFiltering />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

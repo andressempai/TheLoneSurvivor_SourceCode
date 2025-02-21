@@ -1,0 +1,13 @@
+<anim_event_list>
+	<animation name="objects/characters/perderos/animations/perderos_attack_right_arm.caf">
+		<event name="melee" time="0.44602939" endTime="0.44602939" parameter="" bone="r_wrist" offset="0,0,0" dir="0,0,0" model=""/>
+		<event name="end_melee" time="0.89235288" endTime="0.89235288" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/perderos/animations/perderos_hit_reaction_fwd.caf">
+		<event name="audio_trigger" time="0.235" endTime="0.235" parameter="perderos_injured" bone="neck" offset="0,0,0" dir="0,0,0" model=""/>
+		<event name="end_hit_reaction" time="0.99999988" endTime="1" parameter="" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+	<animation name="objects/characters/perderos/animations/perderos_death.caf">
+		<event name="audio_trigger" time="0.046012659" endTime="0.046012659" parameter="perderos_dead" bone="spine_02" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+</anim_event_list>

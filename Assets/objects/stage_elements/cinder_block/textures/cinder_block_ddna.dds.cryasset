@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="0882ce73-b2dc-b828-8c88-73f764e7ac6e">
+	<Files>
+		<File path="cinder_block_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

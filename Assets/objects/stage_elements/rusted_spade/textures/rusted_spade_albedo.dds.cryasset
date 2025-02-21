@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3c6c1377-03e6-a3d2-e598-430259c7f1ad">
+	<Files>
+		<File path="rusted_spade_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

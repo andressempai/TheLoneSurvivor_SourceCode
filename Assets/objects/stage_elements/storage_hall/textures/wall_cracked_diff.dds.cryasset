@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="af72bfd5-7172-4eb5-b5b0-9d72a8259e19">
+	<Files>
+		<File path="wall_cracked_diff.dds"/>
+		<File path="wall_cracked_diff.dds.1"/>
+		<File path="wall_cracked_diff.dds.2"/>
+		<File path="wall_cracked_diff.dds.3"/>
+		<File path="wall_cracked_diff.dds.4"/>
+		<File path="wall_cracked_diff.dds.5"/>
+	</Files>
+	<Details>
+		<Detail name="width">512</Detail>
+		<Detail name="height">512</Detail>
+		<Detail name="mipCount">8</Detail>
+	</Details>
+</AssetMetadata>

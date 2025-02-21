@@ -1,0 +1,9 @@
+<TagDefinition version="2">
+	<Tags>
+		<Tag name="idle"/>
+		<Tag name="walk"/>
+		<Tag name="melee"/>
+		<Tag name="hit_reaction_fwd"/>
+		<Tag name="dead"/>
+	</Tags>
+</TagDefinition>

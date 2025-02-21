@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="9babbbff-7472-cf2e-bc71-d0c54a7af3a1">
+	<Files>
+		<File path="cardboard_box_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

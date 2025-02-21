@@ -1,0 +1,27 @@
+<Material MtlFlags="524544" vertModifType="0">
+	<SubMaterials>
+		<Material Name="front" MtlFlags="524454" Shader="TemplBeamProc" GenMask="2" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,0.730461,0.43965724" Specular="0,0,0" Emittance="1,1,1,40" Opacity="0.69999999" HeatAmountScaled="64" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/muzzle_flash_front_albedo.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Emittance" File="Textures/sprites/muzzleflash/muzzle_flash_front_albedo.tif">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams BeamLength="1" EndColor="1,1,1" EndRadius="1" FinalMultiplier="20" OrigLength="1" OrigWidth="1" SoftIntersectionFactor="10" StartColor="1,1,1" StartRadius="1" viewDependencyFactor="2"/>
+		</Material>
+		<Material Name="side" MtlFlags="524420" Shader="TemplBeamProc" GenMask="2" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="1,0.76052475,0.50288659" Specular="0,0,0" Emittance="1,1,1,40" Opacity="0.69999999" Shininess="9.9450016" HeatAmountScaled="64" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/muzzle_flash_side_albedo.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Emittance" File="Textures/sprites/muzzleflash/muzzle_flash_side_albedo.tif">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams BeamLength="10" EndColor="1,1,1" EndRadius="2" FinalMultiplier="10" OrigLength="10" OrigWidth="1" SoftIntersectionFactor="10" StartColor="1,1,1" StartRadius="1" viewDependencyFactor="2"/>
+		</Material>
+	</SubMaterials>
+	<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

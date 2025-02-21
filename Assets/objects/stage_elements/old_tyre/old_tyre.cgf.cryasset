@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="6fafc6d3-009d-dca1-39c2-0d20ce0458c2" source="old_tyre.fbx">
+	<Files>
+		<File path="old_tyre.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">4402</Detail>
+		<Detail name="vertexCount">3361</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/old_tyre/old_tyre.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

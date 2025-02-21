@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="93d6ac31-de74-5524-d548-ddab934f3b2e">
+	<Files>
+		<File path="gen_element_1001_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

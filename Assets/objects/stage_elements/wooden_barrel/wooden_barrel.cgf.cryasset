@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="09410138-64e7-5a2d-56fb-926c52d4bdef" source="wooden_barrel.fbx">
+ <Files>
+  <File path="wooden_barrel.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">2244</Detail>
+  <Detail name="vertexCount">1383</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/stage_elements/wooden_barrel/wooden_barrel.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

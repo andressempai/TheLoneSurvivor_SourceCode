@@ -1,0 +1,16 @@
+<AudioSystemData name="stage" version="5" triggers="2">
+	<ImplData events="1"/>
+	<Triggers>
+		<Trigger name="switch_on_off">
+			<Event name="switch_on_off.wav" path="stage" type="start" volume="0" loop_count="1"/>
+		</Trigger>
+		<Trigger name="drinking_soda">
+			<Event name="drinking_soda.wav" path="stage" type="start" volume="0" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library />
+		<Folders />
+		<Controls />
+	</EditorData>
+</AudioSystemData>

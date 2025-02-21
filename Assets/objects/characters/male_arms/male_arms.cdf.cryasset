@@ -1,0 +1,12 @@
+<AssetMetadata version="0" type="Character" guid="6f22db64-b361-6179-a07a-468c0714b70e">
+	<Files>
+		<File path="male_arms.cdf"/>
+	</Files>
+	<Details />
+	<Dependencies>
+		<Path>objects/characters/male_arms/male_arms.chr</Path>
+		<Path>objects/characters/male_arms/male_arms.mtl</Path>
+		<Path>objects/characters/male_arms/male_arms.skin</Path>
+		<Path>objects/characters/male_arms/male_arms.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

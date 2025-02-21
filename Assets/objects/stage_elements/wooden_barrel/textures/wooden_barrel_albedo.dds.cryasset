@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="a31df47d-b42c-e594-dda6-fad6869eb6f4">
+	<Files>
+		<File path="wooden_barrel_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

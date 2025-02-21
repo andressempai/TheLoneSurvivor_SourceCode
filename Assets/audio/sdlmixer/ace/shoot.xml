@@ -1,0 +1,24 @@
+<AudioSystemData name="shoot" version="5" triggers="3">
+	<ImplData events="3"/>
+	<Triggers>
+		<Trigger name="pistol_fire" path="pistol">
+			<Event name="pistol_fire.ogg" path="shoot/pistol" type="start" volume="-5" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="american_shotgun_fire" path="shotgun">
+			<Event name="american_shotgun_fire.ogg" path="shoot/shotgun" type="start" volume="-5" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="american_shotgun_back" path="shotgun">
+			<Event name="american_shotgun_back.ogg" path="shoot/shotgun" type="start" volume="-5" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library />
+		<Folders>
+			<Folder name="pistol"/>
+			<Folder name="shotgun"/>
+		</Folders>
+		<Controls />
+	</EditorData>
+</AudioSystemData>

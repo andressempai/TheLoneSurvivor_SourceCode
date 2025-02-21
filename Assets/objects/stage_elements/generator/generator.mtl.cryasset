@@ -1,0 +1,27 @@
+<AssetMetadata version="0" type="Material" guid="bb95927f-227f-4932-9958-a4ac0160c27c">
+	<Files>
+		<File path="generator.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">7</Detail>
+		<Detail name="textureCount">16</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="2">./textures/gen_housing_diff.dds</Path>
+		<Path usageCount="2">./textures/gen_housing_ddna.dds</Path>
+		<Path usageCount="2">./textures/gen_housing_spec.dds</Path>
+		<Path usageCount="1">./textures/gen_housing_eme.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1001_diff.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1001_ddna.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1001_spec.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1011_diff.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1011_ddna.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1011_spec.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1012_diff.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1012_ddna.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1012_spec.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1002_diff.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1002_ddna.dds</Path>
+		<Path usageCount="1">./textures/gen_element_1002_spec.dds</Path>
+	</Dependencies>
+</AssetMetadata>

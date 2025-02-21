@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="24a4ac24-d8de-203e-7557-63aa14ce58e9" timestamp="1735752652">
+	<Files>
+		<File path="pistol_ammo_box_crate.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">3</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/pistol_ammo_box_albedo.dds</Path>
+		<Path usageCount="2">%engine%/EngineAssets/Textures/white_ddn.dds</Path>
+		<Path usageCount="1">./textures/pistol_ammo_crate_albedo.dds</Path>
+	</Dependencies>
+</AssetMetadata>

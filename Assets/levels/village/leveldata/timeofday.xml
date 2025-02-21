@@ -1,0 +1,6 @@
+<TimeOfDay Time="12" TimeStart="0" TimeEnd="24" TimeAnimSpeed="0">
+ <Presets>
+  <Preset Name="%ENGINE%/EngineAssets/Shading/default.env"/>
+  <Preset Name="libs/environmentpresets/tls_environment.env" Default="1"/>
+ </Presets>
+</TimeOfDay>

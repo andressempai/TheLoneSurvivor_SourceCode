@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="27792a5b-dcfd-714d-69b4-429b66e1d7dc">
+	<Files>
+		<File path="cement_bag_spec.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

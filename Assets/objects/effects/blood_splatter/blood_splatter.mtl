@@ -1,0 +1,11 @@
+<Material MtlFlags="524292" Shader="Illum" GenMask="4000000000820" StringGenMask="%DECAL%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="1,0,0" Specular="0.23839758,0.23839758,0.23839758" Opacity="1" Shininess="179.77501" CloakAmount="0" vertModifType="0" LayerAct="1">
+	<Textures>
+		<Texture Map="Diffuse" File="./textures/blood_splatter_tile_2x2.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+		</Texture>
+		<Texture Map="Bumpmap" File="./textures/blood_tile_2x2_ddn.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+		</Texture>
+	</Textures>
+	<PublicParams DecalAlphaMult="1" DecalAngleBasedFading="1" DecalDiffuseOpacity="1" DecalFalloff="1" DecalNormalOpacity="1" DecalSpecularOpacity="1" EmittanceMapGamma="1"/>
+</Material>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="fa8728df-70aa-d6ac-ed77-2a042a9a5531" timestamp="1736264279">
+	<Files>
+		<File path="pallet.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/pallet_albedo.dds</Path>
+		<Path usageCount="1">./textures/pallet_ddn.dds</Path>
+		<Path usageCount="1">./textures/pallet_spec.dds</Path>
+	</Dependencies>
+</AssetMetadata>

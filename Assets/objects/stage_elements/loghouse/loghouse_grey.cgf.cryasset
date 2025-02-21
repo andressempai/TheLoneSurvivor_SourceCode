@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Mesh" guid="83c9b399-7d3a-cbd7-af00-09f5cdc35b62">
+	<Files>
+		<File path="loghouse_grey.cgf"/>
+		<File path="loghouse_grey_lod1.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">14</Detail>
+		<Detail name="triangleCount">32546</Detail>
+		<Detail name="vertexCount">53792</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./loghouse.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

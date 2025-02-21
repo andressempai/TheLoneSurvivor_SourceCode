@@ -1,0 +1,55 @@
+<Material MtlFlags="524544" vertModifType="0">
+	<SubMaterials>
+		<Material Name="corugated_metal" MtlFlags="524416" Shader="Illum" GenMask="40020000000A0" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.034339812,0.034339812,0.034339812" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/corugated_metal_a_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/corugated_metal_a_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Detail" File="./textures/metal_scratches_a_detail.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="6" TileV="6"/>
+				</Texture>
+			</Textures>
+			<PublicParams DetailBumpScale="0.050000001" DetailDiffuseScale="0.5" DetailGlossScale="0.1" EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="door" MtlFlags="524416" Shader="Illum" GenMask="4002000000020" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,1,1" Specular="0.029556841,0.029556841,0.029556841" Opacity="1" Shininess="180" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/metal_door_a_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/metal_door_a_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+		</Material>
+		<Material Name="glass" MtlFlags="2623648" Shader="Glass" GenMask="2080000000000" StringGenMask="%SPECULAR_MAP%TINT_MAP" SurfaceType="" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Opacity="1" Shininess="220" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Specular" File="./textures/glass_dirty_tint.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+			</Textures>
+			<PublicParams BumpMapTile="1" TintColor="1,1,1" CloudinessReducesGloss="0.5" TintCloudiness="0.5" BackLightScale="0.5" BumpScale="2"/>
+		</Material>
+		<Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_metal" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+			<Textures/>
+		</Material>
+		<Material Name="wood" MtlFlags="524416" Shader="Illum" GenMask="40020000000A0" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SUBSURFACE_SCATTERING%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,1,1" Specular="0.0097212186,0.0097212186,0.0097212186" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+			<Textures>
+				<Texture Map="Diffuse" File="./textures/wood_tile_diff.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+				</Texture>
+				<Texture Map="Bumpmap" File="./textures/wood_tile_ddna.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0"/>
+				</Texture>
+				<Texture Map="Detail" File="./textures/wood_005_detail.dds">
+					<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="2" TileV="2"/>
+				</Texture>
+			</Textures>
+			<PublicParams EmittanceMapGamma="1" DetailDiffuseScale="0.5" SSSIndex="0" DetailBumpScale="0.25" DetailGlossScale="0.1"/>
+		</Material>
+	</SubMaterials>
+	<PublicParams EmittanceMapGamma="1" SSSIndex="0"/>
+</Material>

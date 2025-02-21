@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="d7430708-7919-b4bc-eab2-6ad1a74839cb" timestamp="1732580007">
+	<Files>
+		<File path="perderos.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/perderos_albedo.dds</Path>
+		<Path usageCount="1">./textures/perderos_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

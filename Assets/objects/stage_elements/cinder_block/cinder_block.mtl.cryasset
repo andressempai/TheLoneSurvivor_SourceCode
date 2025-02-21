@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="9a04d528-eb41-ebbe-f885-734fd14732e8" timestamp="1736109179">
+	<Files>
+		<File path="cinder_block.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/cinder_block_albedo.dds</Path>
+		<Path usageCount="1">./textures/cinder_block_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

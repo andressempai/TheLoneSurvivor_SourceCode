@@ -1,0 +1,45 @@
+<BehaviorTree>
+	<MetaExtensions />
+	<Variables>
+		<Variable name="enemy_id"/>
+		<Variable name="is_in_attack_range"/>
+		<Variable name="cooldown_completed"/>
+		<Variable name="can_search"/>
+		<Variable name="is_stunned"/>
+	</Variables>
+	<Root>
+	<Loop>
+		<Sequence>
+			<Cooldown key="cooldown_completed" time="3"/>
+			<Cooldown key="can_search" time="2"/>
+			<DistanceCheck resultkey="is_in_attack_range" targetkey="enemy_id" min="2.15"/>
+			<TryStunned out_key="is_stunned"/>
+			<SuppressFailure>
+				<Selector>
+					<CompareKeyWithValueBool key="is_stunned" value="1">
+						<Wait duration="0.1" variation="0.05"/>
+					</CompareKeyWithValueBool>
+					<CompareKeyWithValueBool key="is_in_attack_range" value="1">
+						<SuppressFailure>
+							<CompareKeyWithValueBool key="cooldown_completed" value="1">
+								<Sequence>
+									<StopSearch/>
+									<MeleeAttack/>
+									<SetFlag key="cooldown_completed" value="0"/>
+									<SetFlag key="can_search" value="0"/>
+								</Sequence>
+							</CompareKeyWithValueBool>
+						</SuppressFailure>
+					</CompareKeyWithValueBool>
+					<CompareKeyWithValueBool key="can_search" value="1">
+						<Sequence>
+							<Search targetkey="enemy_id"/>
+							<TurnToEngageEnemy rotationspeed="16.0"/>
+						</Sequence>
+					</CompareKeyWithValueBool>
+				</Selector>
+			</SuppressFailure>
+		</Sequence>
+	</Loop>
+	</Root>
+</BehaviorTree>

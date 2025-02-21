@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="fff7bdd1-b341-ba55-81ee-4f443c4dc8fd">
+	<Files>
+		<File path="glass_dirty_tint.dds"/>
+		<File path="glass_dirty_tint.dds.1"/>
+		<File path="glass_dirty_tint.dds.2"/>
+		<File path="glass_dirty_tint.dds.3"/>
+		<File path="glass_dirty_tint.dds.4"/>
+		<File path="glass_dirty_tint.dds.5"/>
+	</Files>
+	<Details>
+		<Detail name="width">512</Detail>
+		<Detail name="height">512</Detail>
+		<Detail name="mipCount">8</Detail>
+	</Details>
+</AssetMetadata>

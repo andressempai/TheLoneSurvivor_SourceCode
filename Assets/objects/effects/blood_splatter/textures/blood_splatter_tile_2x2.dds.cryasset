@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f3dca4a9-d9aa-f120-0635-d0708e53b195">
+	<Files>
+		<File path="blood_splatter_tile_2x2.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">4096</Detail>
+		<Detail name="height">4096</Detail>
+		<Detail name="mipCount">11</Detail>
+	</Details>
+</AssetMetadata>

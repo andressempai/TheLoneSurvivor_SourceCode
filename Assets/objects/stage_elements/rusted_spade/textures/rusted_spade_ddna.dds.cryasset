@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f5b2458a-eb2c-2b00-7286-88aa570ac028">
+	<Files>
+		<File path="rusted_spade_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

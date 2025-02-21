@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="7c62afa4-22af-b8d7-2e26-a25b1d651d4e">
+	<Files>
+		<File path="coast_sand_rocks_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="b5cb1814-1cc7-2bff-d1bb-47aed1971abd" source="rusted_spade.fbx">
+	<Files>
+		<File path="rusted_spade.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">18608</Detail>
+		<Detail name="vertexCount">11415</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/rusted_spade/rusted_spade.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

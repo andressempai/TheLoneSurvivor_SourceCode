@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="5c504833-601f-8823-15c8-4c3f83828afa">
+	<Files>
+		<File path="fuel_canister_ddna.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

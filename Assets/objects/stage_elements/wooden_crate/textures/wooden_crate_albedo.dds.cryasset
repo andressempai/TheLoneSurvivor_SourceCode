@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="c2159075-1c7a-d871-3b5f-07eae5daa95b">
+	<Files>
+		<File path="wooden_crate_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

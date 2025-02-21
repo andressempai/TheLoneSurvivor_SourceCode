@@ -1,0 +1,6 @@
+<anim_event_list>
+	<animation name="objects/characters/american_shotgun/animations/american_shotgun_fire.caf">
+		<event name="audio_trigger" time="0.0049999999" endTime="0.012" parameter="american_shotgun_fire" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+		<event name="audio_trigger" time="0.35590908" endTime="0.35590908" parameter="american_shotgun_back" bone="" offset="0,0,0" dir="0,0,0" model=""/>
+	</animation>
+</anim_event_list>

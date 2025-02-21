@@ -1,0 +1,26 @@
+<FXLib>
+	<Effect name="concrete">
+		<RandEffect>
+			<Audio trigger="footstep_concrete_01"/>
+			<Audio trigger="footstep_concrete_02"/>
+			<Audio trigger="footstep_concrete_03"/>
+			<Audio trigger="footstep_concrete_04"/>
+		</RandEffect>
+	</Effect>
+	<Effect name="dirt">
+		<RandEffect>
+			<Audio trigger="footstep_dirt_01"/>
+			<Audio trigger="footstep_dirt_02"/>
+			<Audio trigger="footstep_dirt_03"/>
+			<Audio trigger="footstep_dirt_04"/>
+		</RandEffect>
+	</Effect>
+	<Effect name="mud">
+		<RandEffect>
+			<Audio trigger="footstep_mud_01"/>
+			<Audio trigger="footstep_mud_02"/>
+			<Audio trigger="footstep_mud_03"/>
+			<Audio trigger="footstep_mud_04"/>
+		</RandEffect>
+	</Effect>
+</FXLib>

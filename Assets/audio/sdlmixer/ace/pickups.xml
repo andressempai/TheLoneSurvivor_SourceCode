@@ -1,0 +1,26 @@
+<AudioSystemData name="pickups" version="5" triggers="4">
+	<ImplData events="4"/>
+	<Triggers>
+		<Trigger name="pistol_ammo" path="ammunitions">
+			<Event name="pistol_ammo.ogg" path="pickups/ammunitions" type="start" volume="-5" loop_count="1"/>
+		</Trigger>
+		<Trigger name="shotgun_ammo" path="ammunitions">
+			<Event name="shotgun_ammo.ogg" path="pickups/ammunitions" type="start" volume="-5" loop_count="1"/>
+		</Trigger>
+		<Trigger name="armor_chest" path="armor">
+			<Event name="armor_chest.wav" path="pickups/armor" type="start" volume="-7" loop_count="1"/>
+		</Trigger>
+		<Trigger name="medkit_medium" path="medkit">
+			<Event name="medkit_medium.ogg" path="pickups/medkit" type="start" volume="-7" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library />
+		<Folders>
+			<Folder name="ammunitions"/>
+			<Folder name="armor"/>
+			<Folder name="medkit"/>
+		</Folders>
+		<Controls />
+	</EditorData>
+</AudioSystemData>

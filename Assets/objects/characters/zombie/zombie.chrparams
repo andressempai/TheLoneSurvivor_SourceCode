@@ -1,0 +1,9 @@
+<Params>
+	<AnimationList>
+		<Animation name="$AnimEventDatabase" path="objects/characters/zombie/animations/zombie.animevents"/>
+		<Animation name="#filepath" path="objects/characters/zombie/animations"/>
+		<Animation name="*" path="*/*.caf"/>
+		<Animation name="*" path="*/*.bspace"/>
+		<Animation name="*" path="*/*.comb"/>
+	</AnimationList>
+</Params>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="487469cf-7dfb-e11e-0e03-bbcb93ae8be0">
+	<Files>
+		<File path="male_arms.skin"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">12120</Detail>
+		<Detail name="vertexCount">6598</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+		<Detail name="bonesCount">42</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/characters/male_arms/male_arms.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

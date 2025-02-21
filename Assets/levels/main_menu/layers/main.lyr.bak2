@@ -1,0 +1,9 @@
+<ObjectLayer>
+ <Layer Name="Main" FullName="Main" GUID="f5d63717-f978-f587-1686-575016032c32" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1734142592">
+  <LayerObjects>
+   <Object Type="EmptyEntity" Layer="Main" LayerGUID="f5d63717-f978-f587-1686-575016032c32" Id="a1ea13e5-7912-f990-09ea-d899cf60bc13" Name="ui_entity_01" Pos="64,68,31.999269" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

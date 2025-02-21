@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="13c24d91-c7d9-5e5b-5bd8-f143c50659ec" timestamp="1736874432">
+	<Files>
+		<File path="armor.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/armor_albedo.dds</Path>
+		<Path usageCount="1">./textures/armor_ddna.dds</Path>
+		<Path usageCount="1">./textures/armor_spec.dds</Path>
+	</Dependencies>
+</AssetMetadata>

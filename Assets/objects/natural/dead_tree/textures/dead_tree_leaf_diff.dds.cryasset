@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a7ef90cb-5a3f-4f29-422e-2c4a0c078951">
+ <Files>
+  <File path="dead_tree_leaf_diff.dds"/>
+  <File path="dead_tree_leaf_diff.dds.1"/>
+  <File path="dead_tree_leaf_diff.dds.2"/>
+  <File path="dead_tree_leaf_diff.dds.3"/>
+  <File path="dead_tree_leaf_diff.dds.4"/>
+  <File path="dead_tree_leaf_diff.dds.5"/>
+  <File path="dead_tree_leaf_diff.dds.6"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Material" guid="edc22b6f-a6b1-9531-0ecc-406ccd421531" timestamp="1732403337">
+	<Files>
+		<File path="zombie.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">3</Detail>
+		<Detail name="textureCount">4</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/zombie_skin_top_albedo.dds</Path>
+		<Path usageCount="1">./textures/zombie_skin_top_ddn.dds</Path>
+		<Path usageCount="1">./textures/zombie_skin_bottom_albedo.dds</Path>
+		<Path usageCount="1">./textures/zombie_skin_bottom_ddn.dds</Path>
+	</Dependencies>
+</AssetMetadata>

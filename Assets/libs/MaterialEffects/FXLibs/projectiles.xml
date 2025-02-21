@@ -1,0 +1,22 @@
+<FXLib>
+	<Effect name="concrete">
+		<Particle>
+			<Name>objects/effects/concrete_impact/concrete_impact.pfx</Name>
+		</Particle>
+	</Effect>
+	<Effect name="metal_heavy">
+		<Particle>
+			<Name>objects/effects/metal_impact/metal_impact.pfx</Name>
+		</Particle>
+	</Effect>
+	<Effect name="dirt">
+		<Particle>
+			<Name>objects/effects/concrete_impact/concrete_impact.pfx</Name>
+		</Particle>
+	</Effect>
+	<Effect name="flesh">
+		<Particle>
+			<Name>objects/effects/flesh_impact/flesh_impact.pfx</Name>
+		</Particle>
+	</Effect>
+</FXLib>

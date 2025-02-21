@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3428f047-e6b0-6f91-f287-f78185b7a280">
+	<Files>
+		<File path="cabin_uv4_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

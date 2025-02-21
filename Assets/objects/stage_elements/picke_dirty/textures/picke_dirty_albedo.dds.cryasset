@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="f2bb6cf9-0ba6-808b-c8ae-6e2683ca1c5c">
+	<Files>
+		<File path="picke_dirty_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

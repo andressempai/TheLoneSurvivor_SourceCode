@@ -1,0 +1,14 @@
+<Material MtlFlags="526336" Shader="Terrain.Layer" GenMask="202000020" StringGenMask="%NORMAL_MAP%OFFSET_BUMP_MAPPING%TEMP_TERRAIN" SurfaceType="mat_mud" MatTemplate="" Diffuse="1,1,1" Specular="0.19806935,0.19806935,0.19806935" Opacity="1" Shininess="114.75002" CloakAmount="0" vertModifType="0" LayerAct="1">
+	<Textures>
+		<Texture Map="Diffuse" File="./textures/brown_mud_albedo.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+		</Texture>
+		<Texture Map="Bumpmap" File="./textures/brown_mud_ddna.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+		</Texture>
+		<Texture Map="Heightmap" File="./textures/brown_mud_displ.dds">
+			<TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.2" TileV="0.2"/>
+		</Texture>
+	</Textures>
+	<PublicParams BlendFactor="5" BlendFalloff="1.5" DetailTextureHighPassRange="15" DetailTextureStrength="1" DetailTextureStrengthFade="1" HeightBias="0.5" NormalMapBumpiness="1.1" ObmDisplacement="0.0089999996" SelfShadowStrength="3"/>
+</Material>

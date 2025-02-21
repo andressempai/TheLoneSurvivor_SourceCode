@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="2ad9b5d4-1326-ae55-396d-be61447a864b">
+	<Files>
+		<File path="observatory_tower_a.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">3</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/wood_beams_b_diff.dds</Path>
+		<Path usageCount="1">./textures/wood_beams_b_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

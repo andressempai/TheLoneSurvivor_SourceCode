@@ -1,0 +1,25 @@
+<AudioSystemData name="dead" version="5" triggers="3">
+	<ImplData events="1"/>
+	<Triggers>
+		<Trigger name="perderos_dead" path="perderos">
+			<Event name="perderos_dead.ogg" path="dead/perderos" type="start" volume="-8" enable_dist_attenuation="true" attenuation_dist_min="0" attenuation_dist_max="30" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="player_dead" path="player">
+			<Event name="player_dead.ogg" path="dead/player" type="start" volume="-5" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="zombie_dead" path="zombie">
+			<Event name="zombie_dead.ogg" path="dead/zombie" type="start" volume="-8" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library />
+		<Folders>
+			<Folder name="perderos"/>
+			<Folder name="player"/>
+			<Folder name="zombie"/>
+		</Folders>
+		<Controls />
+	</EditorData>
+</AudioSystemData>

@@ -1,0 +1,23 @@
+<AssetMetadata version="0" type="Texture" guid="172b951b-7d83-2f05-a57d-8de6be6ad15f">
+	<Files>
+		<File path="metal_iron_a_sheet_ddna.dds"/>
+		<File path="metal_iron_a_sheet_ddna.dds.a"/>
+		<File path="metal_iron_a_sheet_ddna.dds.1"/>
+		<File path="metal_iron_a_sheet_ddna.dds.1a"/>
+		<File path="metal_iron_a_sheet_ddna.dds.2"/>
+		<File path="metal_iron_a_sheet_ddna.dds.2a"/>
+		<File path="metal_iron_a_sheet_ddna.dds.3"/>
+		<File path="metal_iron_a_sheet_ddna.dds.3a"/>
+		<File path="metal_iron_a_sheet_ddna.dds.4"/>
+		<File path="metal_iron_a_sheet_ddna.dds.4a"/>
+		<File path="metal_iron_a_sheet_ddna.dds.5"/>
+		<File path="metal_iron_a_sheet_ddna.dds.5a"/>
+		<File path="metal_iron_a_sheet_ddna.dds.6"/>
+		<File path="metal_iron_a_sheet_ddna.dds.6a"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

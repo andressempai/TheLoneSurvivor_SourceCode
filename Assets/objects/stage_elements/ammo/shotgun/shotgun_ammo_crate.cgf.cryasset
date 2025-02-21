@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="32f87aac-e1a6-f296-0850-d597a5bc690a" source="shotgun_ammo_box_crate.fbx">
+	<Files>
+		<File path="shotgun_ammo_crate.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">4</Detail>
+		<Detail name="triangleCount">440</Detail>
+		<Detail name="vertexCount">560</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/ammo/shotgun/shotgun_ammo_box_crate.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

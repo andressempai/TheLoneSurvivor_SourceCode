@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="57c66d3c-7fdd-a5f2-bb91-99587ed5f447">
+	<Files>
+		<File path="fuel_canister_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

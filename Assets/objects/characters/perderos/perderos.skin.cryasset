@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="c7833518-7fa0-b9a1-7cde-867b1484f8f2">
+	<Files>
+		<File path="perderos.skin"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">17610</Detail>
+		<Detail name="vertexCount">10438</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+		<Detail name="bonesCount">61</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/characters/perderos/perderos.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

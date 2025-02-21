@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Material" guid="7bd0c183-54e4-d4fd-421a-2433875045e5" timestamp="1736117155">
+	<Files>
+		<File path="cabin.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">5</Detail>
+		<Detail name="textureCount">5</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/cabin_glass_albedo.dds</Path>
+		<Path usageCount="1">./textures/cabin_uv1_albedo.dds</Path>
+		<Path usageCount="1">./textures/cabin_uv1_ddn.dds</Path>
+		<Path usageCount="2">./textures/cabin_uv4_albedo.dds</Path>
+		<Path usageCount="2">./textures/cabin_uv4_ddn.dds</Path>
+	</Dependencies>
+</AssetMetadata>

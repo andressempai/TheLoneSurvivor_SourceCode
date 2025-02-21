@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="4c4a1591-e4a4-b476-5cf4-8ab4225b1a51">
+	<Files>
+		<File path="brown_mud_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

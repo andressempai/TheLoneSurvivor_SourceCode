@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="3b76a5d6-1178-57be-ba60-e7c07fec298c">
+	<Files>
+		<File path="muzzle_flash_front_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">512</Detail>
+		<Detail name="height">512</Detail>
+		<Detail name="mipCount">8</Detail>
+	</Details>
+</AssetMetadata>

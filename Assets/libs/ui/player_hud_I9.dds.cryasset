@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="22c9d8fa-7f4f-f0de-0f03-6a0e4c54fff5">
+	<Files>
+		<File path="player_hud_I9.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">268</Detail>
+		<Detail name="height">116</Detail>
+		<Detail name="mipCount">1</Detail>
+	</Details>
+</AssetMetadata>

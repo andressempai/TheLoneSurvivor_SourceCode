@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="015ad4c1-5747-2007-9ec6-0703243da25a">
+	<Files>
+		<File path="metal_trash_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

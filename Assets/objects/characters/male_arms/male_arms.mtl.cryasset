@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3da3d6e1-0f2b-62f3-8779-3ea16102c86f" timestamp="1732833465">
+	<Files>
+		<File path="male_arms.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">2</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/male_arms_albedo.dds</Path>
+		<Path usageCount="1">./textures/male_arms_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

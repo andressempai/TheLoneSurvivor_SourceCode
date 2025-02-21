@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="71ca4ec5-7fce-0f83-541b-63b524649d03">
+	<Files>
+		<File path="blood_tile_2x2_ddn.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">4096</Detail>
+		<Detail name="height">4096</Detail>
+		<Detail name="mipCount">11</Detail>
+	</Details>
+</AssetMetadata>

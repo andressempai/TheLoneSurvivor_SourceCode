@@ -1,0 +1,16 @@
+<AssetMetadata version="0" type="Texture" guid="a56df82b-2bbc-9857-1a79-fb2698d9ecf2">
+	<Files>
+		<File path="metal_iron_cast_oxidized_a_mask.dds"/>
+		<File path="metal_iron_cast_oxidized_a_mask.dds.1"/>
+		<File path="metal_iron_cast_oxidized_a_mask.dds.2"/>
+		<File path="metal_iron_cast_oxidized_a_mask.dds.3"/>
+		<File path="metal_iron_cast_oxidized_a_mask.dds.4"/>
+		<File path="metal_iron_cast_oxidized_a_mask.dds.5"/>
+		<File path="metal_iron_cast_oxidized_a_mask.dds.6"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

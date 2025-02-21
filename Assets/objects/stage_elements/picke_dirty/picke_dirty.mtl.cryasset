@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="3299984c-1765-48fe-23cd-a6659f8c57ab" timestamp="1736120852">
+	<Files>
+		<File path="picke_dirty.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">2</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/picke_dirty_albedo.dds</Path>
+		<Path usageCount="1">./textures/picke_dirty_ddna.dds</Path>
+	</Dependencies>
+</AssetMetadata>

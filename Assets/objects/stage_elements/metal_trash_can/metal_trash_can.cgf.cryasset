@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="3af3a043-c95a-d992-c661-dd4b7df2461a" source="metal_trash_can.fbx">
+	<Files>
+		<File path="metal_trash_can.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">4930</Detail>
+		<Detail name="vertexCount">3340</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/metal_trash_can/metal_trash_can.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

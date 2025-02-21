@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="b309fb42-c070-8e39-c696-592d2e0e990b">
+ <Files>
+  <File path="loghouse_roof_tiles_diff.dds"/>
+  <File path="loghouse_roof_tiles_diff.dds.1"/>
+  <File path="loghouse_roof_tiles_diff.dds.2"/>
+  <File path="loghouse_roof_tiles_diff.dds.3"/>
+  <File path="loghouse_roof_tiles_diff.dds.4"/>
+  <File path="loghouse_roof_tiles_diff.dds.5"/>
+ </Files>
+ <Details>
+  <Detail name="width">512</Detail>
+  <Detail name="height">512</Detail>
+  <Detail name="mipCount">8</Detail>
+ </Details>
+</AssetMetadata>

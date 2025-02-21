@@ -1,0 +1,52 @@
+<AudioSystemData name="footstep" version="5.7" triggers="6">
+	<ImplData events="1"/>
+	<Triggers>
+		<Trigger name="footstep_concrete_01" path="concrete">
+			<Event name="footsteps_concrete_1.ogg" path="footstep/concrete" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_concrete_02" path="concrete">
+			<Event name="footsteps_concrete_2.ogg" path="footstep/concrete" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_concrete_03" path="concrete">
+			<Event name="footsteps_concrete_3.ogg" path="footstep/concrete" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_concrete_04" path="concrete">
+			<Event name="footsteps_concrete_4.ogg" path="footstep/concrete" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="footstep_dirt_01" path="dirt">
+			<Event name="footsteps_dirt_1.ogg" path="footstep/dirt" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_dirt_02" path="dirt">
+			<Event name="footsteps_dirt_2.ogg" path="footstep/dirt" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_dirt_03" path="dirt">
+			<Event name="footsteps_dirt_3.ogg" path="footstep/dirt" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_dirt_04" path="dirt">
+			<Event name="footsteps_dirt_4.ogg" path="footstep/dirt" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		
+		<Trigger name="footstep_mud_01" path="mud">
+			<Event name="footsteps_mud_1.ogg" path="footstep/mud" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_mud_02" path="mud">
+			<Event name="footsteps_mud_2.ogg" path="footstep/mud" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_mud_03" path="mud">
+			<Event name="footsteps_mud_3.ogg" path="footstep/mud" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+		<Trigger name="footstep_mud_04" path="mud">
+			<Event name="footsteps_mud_4.ogg" path="footstep/mud" type="start" volume="-12" loop_count="1"/>
+		</Trigger>
+	</Triggers>
+	<EditorData>
+		<Library/>
+		<Folders>
+			<Folder name="concrete"/>
+			<Folder name="dirt"/>
+			<Folder name="mud"/>
+		</Folders>
+		<Controls/>
+	</EditorData>
+</AudioSystemData>

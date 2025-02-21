@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="704ff67f-abaf-8637-75e3-7cd36ab78c7f">
+	<Files>
+		<File path="perderos_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">4096</Detail>
+		<Detail name="height">4096</Detail>
+		<Detail name="mipCount">11</Detail>
+	</Details>
+</AssetMetadata>

@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="Texture" guid="ba28c10c-8f1f-b076-a209-7b6208a34308">
+	<Files>
+		<File path="grime_mask.dds"/>
+		<File path="grime_mask.dds.1"/>
+		<File path="grime_mask.dds.2"/>
+		<File path="grime_mask.dds.3"/>
+		<File path="grime_mask.dds.4"/>
+		<File path="grime_mask.dds.5"/>
+	</Files>
+	<Details>
+		<Detail name="width">512</Detail>
+		<Detail name="height">512</Detail>
+		<Detail name="mipCount">8</Detail>
+	</Details>
+</AssetMetadata>

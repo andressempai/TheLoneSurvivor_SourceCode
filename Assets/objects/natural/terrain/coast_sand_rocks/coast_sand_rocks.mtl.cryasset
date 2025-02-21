@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="18f4eafd-24bf-dda8-0cd8-5c217251a057" timestamp="1736961293">
+	<Files>
+		<File path="coast_sand_rocks.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/coast_sand_rocks_albedo.dds</Path>
+		<Path usageCount="1">./textures/coast_sand_rocks_ddna.dds</Path>
+		<Path usageCount="1">./textures/coast_sand_rocks_displ.dds</Path>
+	</Dependencies>
+</AssetMetadata>

@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="80df14d2-cedd-7093-db58-2ed38c797ce8" source="pistol_ammo_box_crate.fbx">
+	<Files>
+		<File path="pistol_ammo_crate.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">4</Detail>
+		<Detail name="triangleCount">3656</Detail>
+		<Detail name="vertexCount">3730</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/ammo/pistol/pistol_ammo_box_crate.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

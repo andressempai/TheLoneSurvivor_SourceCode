@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="f8663428-7fb7-f975-32c2-c57fbc71c72c">
+	<Files>
+		<File path="american_shotgun.skin"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">4</Detail>
+		<Detail name="triangleCount">6246</Detail>
+		<Detail name="vertexCount">5289</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+		<Detail name="bonesCount">9</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">%ENGINE%/EngineAssets/Materials/material_default.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="78b710e9-f384-cfcf-ffd6-ea2f1d1b2be2">
+	<Files>
+		<File path="forest_ground_albedo.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">2048</Detail>
+		<Detail name="height">2048</Detail>
+		<Detail name="mipCount">10</Detail>
+	</Details>
+</AssetMetadata>

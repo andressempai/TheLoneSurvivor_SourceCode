@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="2e7a6c1e-fcd5-e6c5-aa4c-f916fa1bb7b6">
+	<Files>
+		<File path="zombie.chr.ragdoll.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">1</Detail>
+		<Detail name="triangleCount">0</Detail>
+		<Detail name="vertexCount">0</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/characters/zombie/zombie.mtl</Path>
+	</Dependencies>
+</AssetMetadata>

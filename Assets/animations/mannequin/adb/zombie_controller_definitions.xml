@@ -1,0 +1,17 @@
+<ControllerDef>
+	<Tags filename="animations/mannequin/adb/zombie_tags.xml"/>
+	<Fragments filename="animations/mannequin/adb/zombie_fragmentIds.xml"/>
+	<FragmentDefs>
+		<idle scopes="ThirdPerson" />
+		<walk scopes="ThirdPerson" />
+		<melee scopes="ThirdPerson" />
+		<hit_reaction_fwd scopes="ThirdPerson" />
+		<dead scopes="ThirdPerson" />
+	</FragmentDefs>
+	<ScopeContextDefs>
+		<ThirdPersonContext />
+	</ScopeContextDefs>
+	<ScopeDefs>
+		<ThirdPerson layer="0" numLayers="3" context="ThirdPersonContext"/>
+	</ScopeDefs>
+</ControllerDef>

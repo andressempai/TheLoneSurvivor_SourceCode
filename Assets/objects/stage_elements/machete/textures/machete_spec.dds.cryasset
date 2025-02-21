@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="034a7f75-9778-21dc-5c6d-7743c0f8a18c">
+	<Files>
+		<File path="machete_spec.dds"/>
+	</Files>
+	<Details>
+		<Detail name="width">1024</Detail>
+		<Detail name="height">1024</Detail>
+		<Detail name="mipCount">9</Detail>
+	</Details>
+</AssetMetadata>

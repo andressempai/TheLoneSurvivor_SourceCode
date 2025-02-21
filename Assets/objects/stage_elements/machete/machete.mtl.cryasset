@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Material" guid="278e395a-cc8b-f603-4b7e-d48a182a6635" timestamp="1736044146">
+	<Files>
+		<File path="machete.mtl"/>
+	</Files>
+	<Details>
+		<Detail name="subMaterialCount">0</Detail>
+		<Detail name="textureCount">3</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">./textures/machete_albedo.dds</Path>
+		<Path usageCount="1">./textures/machete_ddna.dds</Path>
+		<Path usageCount="1">./textures/machete_spec.dds</Path>
+	</Dependencies>
+</AssetMetadata>

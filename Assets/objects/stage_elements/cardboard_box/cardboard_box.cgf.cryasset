@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="40333804-b05b-badb-5651-4b1745a8e6a2" source="cardboard_box.fbx">
+	<Files>
+		<File path="cardboard_box.cgf"/>
+	</Files>
+	<Details>
+		<Detail name="materialCount">3</Detail>
+		<Detail name="triangleCount">25922</Detail>
+		<Detail name="vertexCount">13677</Detail>
+		<Detail name="16BitPrecision">false</Detail>
+	</Details>
+	<Dependencies>
+		<Path usageCount="1">objects/stage_elements/cardboard_box/cardboard_box.mtl</Path>
+	</Dependencies>
+</AssetMetadata>
